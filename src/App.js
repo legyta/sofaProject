@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import { Switch, Route } from "react-router-dom";
+import Index from "./components/pages/Index";
+import AboutProject from "./components/pages/AboutProject";
+import WorldAround from "./components/pages/WorldAround";
+import Cello from "./components/pages/Cello";
+import Soundtracks from "./components/pages/Soundtracks";
+import Recommendations from "./components/pages/Recommendations";
+import AboutArtist from "./components/pages/AboutArtist";
+class App extends Component {
+  render() {
+    const App = () => (
+      <div className="App">
+        <Switch>
+          <Route path exact="./home" component={Index} />
+          <Route path="/aboutproject" component={AboutProject} />
+          <Route path="/theworldaroundsofa" component={WorldAround} />
+          <Route path="/cello" component={Cello} />
+          <Route path="/soundtracks" component={Soundtracks} />
+          <Route path="/recommendations" component={Recommendations} />
+          <Route path="/aboutartist" component={AboutArtist} />
+        </Switch>
+      </div>
+    );
+    return (
+      <Switch>
+        <App />
+      </Switch>
+    );
+  }
 }
 
 export default App;
