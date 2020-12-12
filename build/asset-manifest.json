@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e64d13e2.chunk.css",
+    "main.js": "/static/js/main.b7449e26.chunk.js",
+    "main.js.map": "/static/js/main.b7449e26.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ffab0620.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ffab0620.js.map",
+    "static/js/2.b3f65ecb.chunk.js": "/static/js/2.b3f65ecb.chunk.js",
+    "static/js/2.b3f65ecb.chunk.js.map": "/static/js/2.b3f65ecb.chunk.js.map",
+    "static/js/3.1a1e9f64.chunk.js": "/static/js/3.1a1e9f64.chunk.js",
+    "static/js/3.1a1e9f64.chunk.js.map": "/static/js/3.1a1e9f64.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e64d13e2.chunk.css.map": "/static/css/main.e64d13e2.chunk.css.map",
+    "static/js/2.b3f65ecb.chunk.js.LICENSE.txt": "/static/js/2.b3f65ecb.chunk.js.LICENSE.txt",
+    "static/media/chairStreetMaria.81c3d9e0.PNG": "/static/media/chairStreetMaria.81c3d9e0.PNG",
+    "static/media/circus.a3bd16ca.png": "/static/media/circus.a3bd16ca.png",
+    "static/media/mariaBlanket.458a7d0c.png": "/static/media/mariaBlanket.458a7d0c.png",
+    "static/media/sofaGreenMaria.f3859500.PNG": "/static/media/sofaGreenMaria.f3859500.PNG",
+    "static/media/sofaHeadNoGrass.58878d02.png": "/static/media/sofaHeadNoGrass.58878d02.png",
+    "static/media/sofaOwlMaria.c2ce61cc.PNG": "/static/media/sofaOwlMaria.c2ce61cc.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffab0620.js",
+    "static/js/2.b3f65ecb.chunk.js",
+    "static/css/main.e64d13e2.chunk.css",
+    "static/js/main.b7449e26.chunk.js"
+  ]
+}
