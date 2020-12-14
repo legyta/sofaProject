@@ -1,19 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap");
 
 /* Global styling */
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
 
 body {
   font-family: "Hind Siliguri", sans-serif;
 }
-
-/* .page {
-  padding: 1rem;
-} */
 
 h1 {
   font-style: normal;
@@ -43,6 +34,13 @@ a {
 
 /* Index Navigation */
 
+.index {
+  margin: 20px;
+}
+.lineOne {
+  margin-top: 80px;
+  margin-left: 80px;
+}
 .lineTwo {
   margin-top: 140px;
   margin-left: 250px;
@@ -54,11 +52,11 @@ a {
 }
 
 /* hover colours */
-a#soundtracks:hover {
+a#soundtracksMenu:hover {
   color: #e5989b;
 }
 
-a#theworldaroundsofa:hover {
+a#theworldaroundsofaIndex:hover {
   color: #06d6a0;
 }
 
@@ -72,4 +70,152 @@ a#sofaproject:hover {
 
 a#recommendations:hover {
   color: #f94144;
+}
+
+a#cello:hover {
+  color: purple;
+}
+
+/* Images Index Page */
+
+.aboutTheArtistText a {
+  font-size: 1.4rem;
+  margin-left: 0px;
+}
+/* .aboutArtistBox {
+  margin-left: 100px;
+} */
+.worldAroundBox {
+  margin-left: 320px;
+  margin-top: 80px;
+}
+
+.recommendationsBox {
+  margin-left: 100px;
+  margin-top: 120px;
+}
+.recommendations {
+  margin-right: 100px;
+}
+
+#aboutArtistImage {
+  width: 25%;
+}
+
+#soundtracksImage {
+  width: 25%;
+}
+
+#theworldaroundsofaImage {
+  width: 35%;
+}
+
+#sofaprojectImage {
+  width: 45%;
+}
+
+#celloImage {
+  width: 40%;
+}
+.celloText a {
+  font-size: 1.4rem;
+  margin-left: 60px;
+}
+
+@media screen and (min-width: 1601px) {
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (min-width: 734px) and (max-width: 767px) {
+  .worldAroundBox {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (min-width: 684px) and (max-width: 733px) {
+}
+
+@media screen and (min-width: 667px) and (max-width: 683px) {
+}
+
+@media screen and (min-width: 412px) and (max-width: 666px) {
+  .worldAroundBox {
+    margin-left: 60px;
+  }
+  .recommendationsBox {
+    margin-left: 0px;
+  }
+  .recommendationsBox {
+    margin-left: 0px;
+  }
+  .aboutTheArtistText a {
+    font-size: 1rem;
+    margin-left: 2px;
+  }
+  #aboutArtistImage {
+    width: 35%;
+  }
+
+  .aboutArtistBox {
+    margin-left: 5px;
+  }
+
+  .worldAroundBox {
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+
+  .recommendations {
+    margin-right: 0px;
+  }
+
+  .recommendationsBox {
+    margin-left: 0px;
+  }
+  .celloText a {
+    font-size: 1.4rem;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  .aboutTheArtistText a {
+    font-size: 1rem;
+    margin-left: 2px;
+  }
+  #aboutArtistImage {
+    width: 35%;
+  }
+
+  .aboutArtistBox {
+    margin-left: 5px;
+  }
+
+  .worldAroundBox {
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+
+  .recommendations {
+    margin-right: 0px;
+  }
+
+  .recommendationsBox {
+    margin-left: 0px;
+  }
+  .celloText a {
+    font-size: 1.4rem;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 220px) and (max-width: 374) {
 }
