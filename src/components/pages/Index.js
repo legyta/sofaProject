@@ -19,6 +19,7 @@ function Index() {
       justify="center"
       alignItems="left"
       className="index"
+      id="index"
       style={{ width: "94%" }}
     >
       <Box

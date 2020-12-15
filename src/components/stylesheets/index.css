@@ -4,6 +4,7 @@
 
 body {
   font-family: "Hind Siliguri", sans-serif;
+  background-color: #b0dafd;
 }
 
 h1 {
@@ -35,21 +36,24 @@ a {
 /* Index Navigation */
 
 .index {
+  /* background-color: #afe9f1 !important; */
   margin: 20px;
 }
-.lineOne {
+
+/* .lineOne {
   margin-top: 80px;
   margin-left: 80px;
 }
+
 .lineTwo {
   margin-top: 140px;
   margin-left: 250px;
-}
+} */
 
-.lineThree {
+/* .lineThree {
   margin-top: 200px;
   margin-left: 50px;
-}
+} */
 
 /* hover colours */
 a#soundtracksMenu:hover {
