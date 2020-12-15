@@ -93,7 +93,7 @@ function Index() {
         <Box style={{ display: "flex", flexDirection: "column", width: "50%" }}>
           <Box className="aboutproject">
             <b>
-              <a href="/sofaproject" id="sofaproject">
+              <a href="/aboutproject" id="sofaproject">
                 The Sofa Project{" "}
               </a>
             </b>{" "}
