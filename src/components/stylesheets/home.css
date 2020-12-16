@@ -1,0 +1,49 @@
+.parent {
+  background: brown;
+  height: 100vh;
+  overflow: hidden;
+}
+.child {
+  background: tomato;
+  height: 100vh;
+  margin-top: 340px;
+  position: relative;
+}
+
+#recommendationsImage {
+  position: absolute;
+  top: -320px;
+  margin-left: 210px;
+  width: 400px;
+}
+
+#theworldaroundsofaImage {
+  position: absolute;
+  top: -300px;
+  width: 360px;
+}
+
+#celloImage {
+  position: absolute;
+  top: -240px;
+  width: 300px;
+}
+
+#aboutArtistImage {
+  position: absolute;
+  top: -140px;
+  width: 420px;
+}
+
+#soundtracksImage {
+  position: absolute;
+  top: 60px;
+  margin-left: 550px;
+  width: 280px;
+}
+
+#aboutprojectImage {
+  position: absolute;
+  top: -130px;
+  width: 340px;
+}

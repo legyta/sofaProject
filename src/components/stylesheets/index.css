@@ -4,7 +4,7 @@
 
 body {
   font-family: "Hind Siliguri", sans-serif;
-  background-color: #b0dafd;
+  /* background-color: #b0dafd; */
 }
 
 h1 {
@@ -33,11 +33,27 @@ a {
   text-decoration: none;
 }
 
+.top {
+  height: 100vh;
+  background-color: brown;
+  overflow: hidden;
+  /* z-index: -1; */
+  /* position: absolute; */
+}
+
+.bottom {
+  margin-top: 320px;
+  height: 100vh;
+  background-color: tomato;
+  position: relative;
+  /* z-index: -1; */
+
+  /* position: absolute; */
+}
+
 /* Index Navigation */
 
 .index {
-  /* background-color: #afe9f1 !important; */
-  margin: 20px;
 }
 
 /* .lineOne {
@@ -103,7 +119,10 @@ a#cello:hover {
 }
 
 #aboutArtistImage {
-  width: 25%;
+  width: 240%;
+  /* z-index: 1;
+  overflow: hidden; */
+  /* position: absolute; */
 }
 
 #soundtracksImage {
@@ -123,7 +142,7 @@ a#cello:hover {
 }
 .celloText a {
   font-size: 1.4rem;
-  margin-left: 60px;
+  margin-left: 40px;
 }
 
 @media screen and (min-width: 1601px) {
