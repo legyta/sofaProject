@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
-import Index from "./components/pages/Index";
+// import Index from "./components/pages/Index";
 import Home from "./components/pages/Home";
 import AboutProject from "./components/pages/AboutProject";
 import WorldAround from "./components/pages/WorldAround";
@@ -13,8 +13,8 @@ class App extends Component {
     const App = () => (
       <div className="App">
         <Switch>
-          <Route path exact="./home" component={Index} />
-          <Route path="/home" component={Home} />
+          <Route path exact="./home" component={Home} />
+          {/* <Route path="/home" component={Home} /> */}
           <Route path="/aboutproject" component={AboutProject} />
           <Route path="/theworldaroundsofa" component={WorldAround} />
           <Route path="/cello" component={Cello} />

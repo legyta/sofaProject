@@ -47,3 +47,170 @@
   top: -130px;
   width: 340px;
 }
+
+/* RESPONSIVENESS */
+@media screen and (min-width: 1601px) {
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (min-width: 734px) and (max-width: 767px) {
+  .child {
+    margin-top: 240px;
+  }
+
+  #recommendationsImage {
+    top: -180px;
+    margin-left: 110px;
+    width: 200px;
+  }
+
+  #theworldaroundsofaImage {
+    top: -160px;
+    width: 180px;
+  }
+
+  #celloImage {
+    top: -100px;
+    width: 150px;
+    margin-left: -20px;
+  }
+
+  #aboutArtistImage {
+    top: -60px;
+    width: 220px;
+  }
+
+  #soundtracksImage {
+    top: 45px;
+    margin-left: 280px;
+    width: 140px;
+  }
+
+  #aboutprojectImage {
+    top: -50px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 684px) and (max-width: 733px) {
+  .child {
+    margin-top: 240px;
+  }
+
+  #recommendationsImage {
+    top: -180px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  #theworldaroundsofaImage {
+    top: -160px;
+    width: 180px;
+  }
+
+  #celloImage {
+    top: -100px;
+    width: 150px;
+    margin-left: -20px;
+  }
+
+  #aboutArtistImage {
+    top: -60px;
+    width: 220px;
+  }
+
+  #soundtracksImage {
+    top: 60px;
+    margin-left: 280px;
+    width: 140px;
+  }
+
+  #aboutprojectImage {
+    top: -40px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 683px) {
+}
+
+@media screen and (min-width: 412px) and (max-width: 666px) {
+  #recommendationsImage {
+    top: -180px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  #theworldaroundsofaImage {
+    top: -160px;
+    width: 180px;
+  }
+
+  #celloImage {
+    top: -100px;
+    width: 150px;
+    margin-left: -20px;
+  }
+
+  #aboutArtistImage {
+    top: -60px;
+    width: 220px;
+  }
+
+  #soundtracksImage {
+    top: 60px;
+    margin-left: 140px;
+    width: 140px;
+  }
+
+  #aboutprojectImage {
+    top: 120px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  #recommendationsImage {
+    top: -180px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  #theworldaroundsofaImage {
+    top: -160px;
+    width: 180px;
+  }
+
+  #celloImage {
+    top: -100px;
+    width: 150px;
+    margin-left: -20px;
+  }
+
+  #aboutArtistImage {
+    top: -60px;
+    width: 220px;
+  }
+
+  #soundtracksImage {
+    top: 60px;
+    margin-left: 140px;
+    width: 140px;
+  }
+
+  #aboutprojectImage {
+    top: 120px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 220px) and (max-width: 374) {
+}

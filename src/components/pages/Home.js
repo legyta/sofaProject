@@ -72,7 +72,7 @@ function Home() {
                   <img src={carpet} alt="soundtracks" id="soundtracksImage" />
                 </a>
               </Box>
-              <Box style={{ width: "35%" }}>
+              <Box style={{ width: "40%" }} className="aboutProjectBox">
                 {" "}
                 <a href="/aboutproject">
                   <img
