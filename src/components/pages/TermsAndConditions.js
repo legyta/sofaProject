@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import blankets2 from "../images/blankets2.png";
-import home from "../stylesheets/home.css";
+import noConfirm from "../images/noConfirm.jpg";
+import termsAndConditions from "../stylesheets/termsAndConditions.css";
 
 function TermsAndConditions() {
   return (
@@ -74,10 +75,10 @@ function TermsAndConditions() {
           style={{ width: "30%", display: "flex", flexDirection: "column" }}
         >
           {" "}
+          <p>Yes, I confirm</p>
           <a href="/home">
             <img src={blankets2} alt="agree" id="agreeButton" />
           </a>
-          <p>Yes, I confirm</p>
         </Box>
 
         <Box
@@ -85,10 +86,10 @@ function TermsAndConditions() {
           style={{ width: "30%", display: "flex", flexDirection: "column" }}
         >
           {" "}
-          <a href="/home">
-            <img src={blankets2} alt="agree" id="agreeButton" />
-          </a>
           <p> No, I do not confirm</p>
+          <a href="/home">
+            <img src={noConfirm} alt="agree" id="notAgreeButton" />
+          </a>
         </Box>
       </Box>
     </Grid>
