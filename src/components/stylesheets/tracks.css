@@ -1,0 +1,23 @@
+@media screen and (min-width: 1601px) and (max-width: 2400px) {
+  .tracks1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .track1 {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 734px) and (max-width: 1600px) {
+  .tracks1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .track1 {
+    width: 50%;
+  }
+}

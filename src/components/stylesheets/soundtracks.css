@@ -1,12 +1,91 @@
-.soundtracks {
-  background-color: #e5989b !important;
+/* Photo and description section start */
+@media screen and (min-width: 667px) and (max-width: 2400px) {
+  .photoAndDescription {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
-.soundtracks {
-  display: flex;
-  flex-direction: row;
+#soundtrackPhoto {
+  width: 60%;
+  margin-top: 40px;
 }
 
-.tracksList {
-  margin-top: 80px;
+.description p {
+  padding: 25px;
 }
+
+@media screen and (min-width: 1601px) and (max-width: 2400px) {
+  .photoAndDescription {
+    margin-top: 40px;
+  }
+
+  .photo {
+    width: 40%;
+  }
+  #soundtrackPhoto {
+    width: 60%;
+    margin-top: 0px;
+  }
+  .description {
+    width: 60%;
+    display: flex;
+    align-items: center;
+  }
+  .description p {
+    padding: 90px;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 1600px) {
+  .photo {
+    width: 40%;
+  }
+  #soundtrackPhoto {
+    width: 85%;
+    margin-top: 0px;
+  }
+  .description {
+    width: 60%;
+    display: flex;
+    align-items: center;
+  }
+  .description p {
+    padding: 45px;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 2400px) {
+  .photoAndDescription {
+    margin-top: 40px;
+  }
+  #soundtrackPhoto {
+    width: 55%;
+  }
+  .description p {
+    margin: 0px 10px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .photoAndDescription {
+    margin-top: 40px;
+  }
+  #soundtrackPhoto {
+    width: 75%;
+  }
+  .description p {
+    padding: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .photoAndDescription {
+    margin-top: 40px;
+  }
+  .description p {
+    padding: 60px;
+  }
+}
+
+/* Photo and description section end */
