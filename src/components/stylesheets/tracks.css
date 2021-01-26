@@ -1,3 +1,13 @@
+.tracks1 .track1 {
+  background-color: #a4cfc5;
+}
+
+.tracks1 .track1:hover {
+  background-color: #d95959;
+  border-style: solid;
+  border-width: 2px;
+}
+
 @media screen and (min-width: 1601px) and (max-width: 2400px) {
   .tracks1 {
     display: flex;

@@ -1,13 +1,26 @@
 import React, { useState } from "react";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
+import { makeStyles, withStyles } from "@material-ui/core/styles";
 import play from "../images/play.svg";
 import pause from "../images/pause.svg";
 import tracks from "../stylesheets/tracks.css";
 import allAround from "../tracks/allAround.mp3";
+import ReactPlayer from "react-player";
+import doorsAreYouOk from "../tracks/doorsAreYouOk.mp3";
+import PlayerControlers from "../playerControlers/PlayerControlers";
+
+const useStyles = makeStyles({
+  playerWrapper: {
+    width: "50%",
+    position: "relative",
+  },
+});
 
 function Tracks() {
-  let audio = new Audio(allAround);
+  const classes = useStyles();
+
+  // let audio = new Audio(allAround);
 
   return (
     <Grid style={{ margin: "40px 0px" }}>
@@ -15,7 +28,6 @@ function Tracks() {
         <Box
           className="track1"
           style={{
-            backgroundColor: "#A4CFC5",
             padding: "20px",
             margin: "20px",
           }}
@@ -24,7 +36,7 @@ function Tracks() {
             className="trackTitle"
             style={{ display: "flex", flexDirection: "row" }}
           >
-            <img
+            {/* <img
               src={play}
               alt="play"
               id="play"
@@ -38,12 +50,21 @@ function Tracks() {
               id="play"
               style={{ marginRight: "10px" }}
               onClick={() => audio.pause()}
-            />
+            /> */}
 
             <h2 style={{ marginRight: "10px" }}>Cuddle You</h2>
-            <h2 style={{ fontWeight: "100" }}>5:00 min</h2>
+            {/* <h2 style={{ fontWeight: "100" }}>5:00 min</h2> */}
           </Box>
 
+          <Box className={classes.playerWrapper}>
+            <ReactPlayer
+              url={allAround}
+              width="400px"
+              height="50px"
+              playing={false}
+              controls={true}
+            />
+          </Box>
           <Box className="trackDescription">
             <p>
               This song was made in France by Marija. In this song she expresses
@@ -54,7 +75,6 @@ function Tracks() {
         <Box
           className="track1"
           style={{
-            backgroundColor: "#A4CFC5",
             padding: "20px",
             margin: "20px",
           }}
@@ -63,15 +83,24 @@ function Tracks() {
             className="trackTitle"
             style={{ display: "flex", flexDirection: "row" }}
           >
-            <img
+            {/* <img
               src={play}
               alt="play"
               id="play"
               style={{ marginRight: "10px" }}
-            />
+            /> */}
             <h2 style={{ marginRight: "10px" }}>Doors, are you ok?</h2>
-            <h2 style={{ fontWeight: "100" }}>2:00 min</h2>
+            {/* <h2 style={{ fontWeight: "100" }}>2:00 min</h2> */}
           </Box>
+
+          <ReactPlayer
+            url={doorsAreYouOk}
+            width="400px"
+            height="50px"
+            playing={false}
+            controls={true}
+          />
+
           <Box className="trackDescription">
             <p>
               This song is a collaboration between Marija, Mark and the doors of
@@ -91,7 +120,6 @@ function Tracks() {
         <Box
           className="track1"
           style={{
-            backgroundColor: "#A4CFC5",
             padding: "20px",
             margin: "20px",
           }}
@@ -111,6 +139,7 @@ function Tracks() {
             </h2>
             <h2 style={{ fontWeight: "100" }}>3:00 min</h2>
           </Box>
+
           <Box className="trackDescription">
             <p>
               Whilst exploring door sounds, Marija’s friend shared the
@@ -123,7 +152,6 @@ function Tracks() {
         <Box
           className="track1"
           style={{
-            backgroundColor: "#A4CFC5",
             padding: "20px",
             margin: "20px",
           }}
@@ -157,7 +185,6 @@ function Tracks() {
         <Box
           className="track1"
           style={{
-            backgroundColor: "#A4CFC5",
             padding: "20px",
             margin: "20px",
           }}
@@ -194,7 +221,6 @@ function Tracks() {
         <Box
           className="track1"
           style={{
-            backgroundColor: "#A4CFC5",
             padding: "20px",
             margin: "20px",
           }}
@@ -223,6 +249,17 @@ function Tracks() {
               to total stillness and experience the pleasure of this state.
             </p>
           </Box>
+        </Box>
+
+        <Box className={classes.playerWrapper}>
+          {/* <ReactPlayer
+            url={allAround}
+            width="400px"
+            height="50px"
+            playing={true}
+            controls={true}
+          /> */}
+          <PlayerControlers />
         </Box>
       </Box>
     </Grid>

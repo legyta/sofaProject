@@ -6,7 +6,7 @@ import soundtracks from "../stylesheets/soundtracks.css";
 import mariaBlanket from "../images/mariaBlanket.png";
 import soundtrack from "../images/soundtrack.svg";
 import play from "../images/play.svg";
-import Tracks from "../pages/Tracks.js";
+import Tracks from "../pages/Tracks";
 
 function Soundtracks() {
   return (
