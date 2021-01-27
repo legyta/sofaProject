@@ -178,25 +178,3 @@ function Index() {
 }
 
 export default Index;
-
-// <div className="lineOne">
-// <b>
-//   <a
-//     href="/recommendations"
-//     id="recommendations"
-//     style={{ fontSize: "1.4rem", margin: "80px" }}
-//   >
-//     Recommendations
-//   </a>
-// </b>
-//
-// </div>
-// <div className="lineTwo">
-
-// </div>
-// <div className="lineThree">
-// <a href="/cello" style={{ fontSize: "1.4rem", margin: "140px" }}>
-//   Cello
-// </a>
-
-// </div>

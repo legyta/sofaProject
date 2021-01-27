@@ -4,18 +4,18 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import aboutArtist from "../stylesheets/aboutArtist.css";
 import sofaHeadNoGrass from "../images/sofaHeadNoGrass.png";
-import theSofaProject from "../images/theSofaProject.svg";
+import aboutCreator from "../images/aboutCreator.svg";
 
-function AboutArtist() {
+function AboutCreator() {
   return (
-    <Grid container style={{ backgroundColor: "#59D98C" }}>
-      <Link to="/performances-for-objects"></Link>
+    <Grid container style={{ backgroundColor: "#F9D65C" }}>
+      <Link to="/about-creator"></Link>
       <Box className="photoAndDescription">
         <Box
           className="photo"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={theSofaProject} alt="soundtracks" id="soundtrackPhoto" />
+          <img src={aboutCreator} alt="soundtracks" id="soundtrackPhoto" />
         </Box>
         <Box className="description">
           <p>
@@ -36,4 +36,4 @@ function AboutArtist() {
   );
 }
 
-export default AboutArtist;
+export default AboutCreator;

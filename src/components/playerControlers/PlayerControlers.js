@@ -21,17 +21,17 @@ import play from "../images/play.svg";
 let audio = new Audio(allAround);
 
 const useStyles = makeStyles({
-  controlsWrapper: {
-    position: "absolute",
-    left: 0,
-    right: 0,
-    bottom: 0,
-    background: "#d95959",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-    zIndex: 1,
-  },
+  // controlsWrapper: {
+  //   position: "absolute",
+  //   left: 0,
+  //   right: 0,
+  //   bottom: 0,
+  //   background: "#d95959",
+  //   display: "flex",
+  //   flexDirection: "column",
+  //   justifyContent: "space-between",
+  //   zIndex: 1,
+  // },
   controlIcons: {
     color: "#777",
     fontSize: 50,

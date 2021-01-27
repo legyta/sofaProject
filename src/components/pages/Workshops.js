@@ -2,20 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
-import aboutArtist from "../stylesheets/aboutArtist.css";
-import sofaHeadNoGrass from "../images/sofaHeadNoGrass.png";
-import theSofaProject from "../images/theSofaProject.svg";
+import workshops from "../stylesheets/workshops.css";
+import workshopsImage from "../images/workshopsImage.svg";
 
-function AboutArtist() {
+function Workshops() {
   return (
-    <Grid container style={{ backgroundColor: "#59D98C" }}>
-      <Link to="/performances-for-objects"></Link>
+    <Grid container style={{ backgroundColor: "#F9D65C" }}>
+      <Link to="/workshops"></Link>
       <Box className="photoAndDescription">
         <Box
-          className="photo"
+          className="workshopPhoto"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={theSofaProject} alt="soundtracks" id="soundtrackPhoto" />
+          <img src={workshopsImage} alt="soundtracks" id="workshopPhoto" />
         </Box>
         <Box className="description">
           <p>
@@ -36,4 +35,4 @@ function AboutArtist() {
   );
 }
 
-export default AboutArtist;
+export default Workshops;

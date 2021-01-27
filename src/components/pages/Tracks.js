@@ -8,6 +8,7 @@ import tracks from "../stylesheets/tracks.css";
 import allAround from "../tracks/allAround.mp3";
 import ReactPlayer from "react-player";
 import doorsAreYouOk from "../tracks/doorsAreYouOk.mp3";
+import babiesAndWhales from "../tracks/babiesAndWhales.mp3";
 import PlayerControlers from "../playerControlers/PlayerControlers";
 
 const useStyles = makeStyles({
@@ -15,12 +16,24 @@ const useStyles = makeStyles({
     width: "50%",
     position: "relative",
   },
+
+  controlsWrapper: {
+    position: "absolute",
+    left: 0,
+    right: 0,
+    bottom: 0,
+    background: "#d95959",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    zIndex: 1,
+  },
 });
 
 function Tracks() {
   const classes = useStyles();
 
-  // let audio = new Audio(allAround);
+  let audio = new Audio(babiesAndWhales);
 
   return (
     <Grid style={{ margin: "40px 0px" }}>
@@ -63,6 +76,7 @@ function Tracks() {
               height="50px"
               playing={false}
               controls={true}
+              style={{ marginTop: "10px", marginLeft: "-10px" }}
             />
           </Box>
           <Box className="trackDescription">
@@ -92,14 +106,25 @@ function Tracks() {
             <h2 style={{ marginRight: "10px" }}>Doors, are you ok?</h2>
             {/* <h2 style={{ fontWeight: "100" }}>2:00 min</h2> */}
           </Box>
-
-          <ReactPlayer
-            url={doorsAreYouOk}
-            width="400px"
-            height="50px"
-            playing={false}
-            controls={true}
-          />
+          <Box className="player-wrap">
+            <ReactPlayer
+              className="react-player"
+              url={doorsAreYouOk}
+              width="400px"
+              height="50px"
+              playing={false}
+              controls={true}
+              style={{ marginTop: "10px" }}
+            />
+          </Box>
+          {/* <Box className="test">
+            <audio className="test">
+              <source
+                src="../tracks/doorsAreYouOk.mp3"
+                type="audio/mpeg"
+              ></source>
+            </audio>
+          </Box> */}
 
           <Box className="trackDescription">
             <p>
@@ -133,11 +158,21 @@ function Tracks() {
               alt="play"
               id="play"
               style={{ marginRight: "10px" }}
+              onClick={() => audio.play()}
             />
+
+            <img
+              src={pause}
+              alt="pause"
+              id="play"
+              style={{ marginRight: "10px" }}
+              onClick={() => audio.pause()}
+            />
+
             <h2 style={{ marginRight: "10px" }}>
               Party of doors with a bit of whales and babies
             </h2>
-            <h2 style={{ fontWeight: "100" }}>3:00 min</h2>
+            {/* <h2 style={{ fontWeight: "100" }}>3:00 min</h2> */}
           </Box>
 
           <Box className="trackDescription">
@@ -251,16 +286,20 @@ function Tracks() {
           </Box>
         </Box>
 
-        <Box className={classes.playerWrapper}>
-          {/* <ReactPlayer
+        {/* <Box className={classes.playerWrapper}>
+          <h1>here is new try</h1>
+          <ReactPlayer
             url={allAround}
             width="400px"
             height="50px"
-            playing={true}
+            playing={false}
             controls={true}
-          /> */}
-          <PlayerControlers />
-        </Box>
+          />
+
+          <Box className={classes.controlsWrapper}></Box> */}
+
+        {/* <PlayerControlers /> */}
+        {/* </Box> */}
       </Box>
     </Grid>
   );

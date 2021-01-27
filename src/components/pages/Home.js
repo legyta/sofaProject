@@ -29,7 +29,7 @@ function Home() {
           <Box style={{ display: "flex", flexDirection: "column" }}>
             <Box style={{ display: "flex", flexDirection: "row" }}>
               <Box style={{ width: "50%" }}>
-                <a href="/recommendations">
+                <a href="/workshops">
                   <img
                     src={lempa}
                     alt="recommendations"
@@ -38,7 +38,7 @@ function Home() {
                 </a>
               </Box>
               <Box style={{ width: "50%" }}>
-                <a href="/theworldaroundsofa">
+                <a href="/contact-artists">
                   <img
                     src={spinta}
                     alt="theworldaroundsofa"
@@ -56,7 +56,7 @@ function Home() {
               </Box>
               <Box style={{ width: "80%" }}>
                 {" "}
-                <a href="/aboutartist">
+                <a href="/about-creator">
                   <img
                     src={mariaOnSofa}
                     alt="aboutartist"
@@ -74,7 +74,7 @@ function Home() {
               </Box>
               <Box style={{ width: "40%" }} className="aboutProjectBox">
                 {" "}
-                <a href="/aboutproject">
+                <a href="/performances-for-objects">
                   <img
                     src={sofaBrown}
                     alt="aboutproject"

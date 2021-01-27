@@ -4,11 +4,11 @@ import { Switch, Route } from "react-router-dom";
 import TermsAndConditions from "./components/pages/TermsAndConditions";
 import Home from "./components/pages/Home";
 import AboutProject from "./components/pages/AboutProject";
-import WorldAround from "./components/pages/WorldAround";
+import ContactArtists from "./components/pages/ContactArtists";
 import Cello from "./components/pages/Cello";
 import Soundtracks from "./components/pages/Soundtracks";
-import Recommendations from "./components/pages/Recommendations";
-import AboutArtist from "./components/pages/AboutArtist";
+import Workshops from "./components/pages/Workshops";
+import AboutCreator from "./components/pages/AboutCreator";
 class App extends Component {
   render() {
     const App = () => (
@@ -17,12 +17,13 @@ class App extends Component {
           <Route path exact="./" component={TermsAndConditions} />
           <Route path="/home" component={Home} />
           {/* <Route path="/home" component={Home} /> */}
-          <Route path="/aboutproject" component={AboutProject} />
-          <Route path="/theworldaroundsofa" component={WorldAround} />
+          <Route path="/performances-for-objects" component={AboutProject} />
+          <Route path="/contact-artists" component={ContactArtists} />
           <Route path="/cello" component={Cello} />
           <Route path="/soundtracks" component={Soundtracks} />
-          <Route path="/recommendations" component={Recommendations} />
-          <Route path="/aboutartist" component={AboutArtist} />
+          <Route path="/workshops" component={Workshops} />
+          <Route path="/about-creator" component={AboutCreator} />
+          <Route path="/audio" component={Audio} />
         </Switch>
       </div>
     );
