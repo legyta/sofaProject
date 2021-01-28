@@ -67,7 +67,7 @@ function TermsAndConditions() {
             }}
           >
             <h2>Terms and Conditions</h2>
-            <p>For entering the website made for sofas </p>
+            <p className="tc">For entering the website made for sofas </p>
             <hr
               style={{
                 height: 0.5,
@@ -129,7 +129,7 @@ function TermsAndConditions() {
                   color="primary"
                   href="/home"
                 >
-                  Confirm
+                  I say yes
                 </Button>
                 <img
                   src={yesConfirm}
@@ -156,7 +156,7 @@ function TermsAndConditions() {
                   color="default"
                   href="/home"
                 >
-                  Don't confirm
+                  I say no
                 </Button>
                 <img
                   src={noConfirm}

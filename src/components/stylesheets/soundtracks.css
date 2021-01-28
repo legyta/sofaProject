@@ -33,7 +33,7 @@
     align-items: center;
   }
   .description p {
-    padding: 90px;
+    padding: 120px;
   }
 }
 
@@ -63,7 +63,7 @@
     width: 55%;
   }
   .description p {
-    margin: 0px 10px 0px 0px;
+    margin: 0px 260px;
   }
 }
 
@@ -75,7 +75,7 @@
     width: 75%;
   }
   .description p {
-    padding: 90px;
+    margin: 0px 120px;
   }
 }
 

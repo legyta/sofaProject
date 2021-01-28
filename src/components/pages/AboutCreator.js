@@ -5,6 +5,7 @@ import Box from "@material-ui/core/Box";
 import aboutArtist from "../stylesheets/aboutArtist.css";
 import sofaHeadNoGrass from "../images/sofaHeadNoGrass.png";
 import aboutCreator from "../images/aboutCreator.svg";
+import Banner from "../pieces/Banner";
 
 function AboutCreator() {
   return (
@@ -32,6 +33,7 @@ function AboutCreator() {
           </p>
         </Box>
       </Box>
+      <Banner />
     </Grid>
   );
 }

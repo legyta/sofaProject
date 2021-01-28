@@ -16,14 +16,12 @@ class App extends Component {
         <Switch>
           <Route path exact="./" component={TermsAndConditions} />
           <Route path="/home" component={Home} />
-          {/* <Route path="/home" component={Home} /> */}
           <Route path="/performances-for-objects" component={AboutProject} />
           <Route path="/contact-artists" component={ContactArtists} />
           <Route path="/cello" component={Cello} />
           <Route path="/soundtracks" component={Soundtracks} />
           <Route path="/workshops" component={Workshops} />
           <Route path="/about-creator" component={AboutCreator} />
-          <Route path="/audio" component={Audio} />
         </Switch>
       </div>
     );

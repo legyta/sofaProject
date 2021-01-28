@@ -5,6 +5,7 @@ import Box from "@material-ui/core/Box";
 import workshops from "../stylesheets/workshops.css";
 import workshopsImage from "../images/workshopsImage.svg";
 import contactArtists from "../images/contactArtists.svg";
+import Banner from "../pieces/Banner";
 
 function ContactArtists() {
   return (
@@ -29,6 +30,7 @@ function ContactArtists() {
           </p>
         </Box>
       </Box>
+      <Banner />
     </Grid>
   );
 }

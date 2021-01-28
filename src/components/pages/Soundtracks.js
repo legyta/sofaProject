@@ -7,6 +7,7 @@ import mariaBlanket from "../images/mariaBlanket.png";
 import soundtrack from "../images/soundtrack.svg";
 import play from "../images/play.svg";
 import Tracks from "../pages/Tracks";
+import Banner from "../pieces/Banner";
 
 function Soundtracks() {
   return (
@@ -31,6 +32,7 @@ function Soundtracks() {
         </Box>
       </Box>
       <Tracks />
+      <Banner />
     </Grid>
   );
 }

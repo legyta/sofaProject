@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+@-webkit-keyframes banner {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes banner {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+.banner-wrap {
+  bottom: 0;
+  width: 40%;
+  overflow: hidden;
+  height: 5rem;
+  background: #f9d65c;
+  background: linear-gradient(90deg, #a4cfc5 24%, #d95959 100%);
+  color: #f9d65c;
+}
+.banner {
+  display: inline-block;
+  height: 2rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  box-sizing: content-box;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: banner;
+  animation-name: banner;
+  -webkit-animation-duration: 15s;
+  animation-duration: 15s;
+}
+.bannerItem {
+  display: inline-block;
+  padding: 1.2rem;
+  font-size: 3.4rem;
+  background: -webkit-linear-gradient(#a4cfc5, #d95959);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+*/ * {
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes banner {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes banner {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.banner-wrap {
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 5rem;
+  background: F9D65C;
+  background: linear-gradient(90deg, #a4cfc5 24%, #d95959 100%);
+  color: #f9d65c;
+}
+.banner {
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  box-sizing: content-box;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: banner;
+  animation-name: banner;
+  -webkit-animation-duration: 15s;
+  animation-duration: 15s;
+}
+
+.banner __item {
+  display: inline-block;
+  padding: 1.2rem;
+  font-size: 4rem;
+  background: -webkit-linear-gradient(#d95959, #a4cfc5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .bannerItem {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 767px) {
+  .bannerItem {
+    font-size: 2.4rem;
+  }
+
+  .banner-wrap {
+    height: 10vw;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .bannerItem {
+    font-size: 2.4rem;
+  }
+
+  .banner-wrap {
+    height: 20vw;
+  }
+}
+
+.is-pink {
+  color: #d95959;
+}
+
+.is-green {
+  color: #a4cfc5;
+}

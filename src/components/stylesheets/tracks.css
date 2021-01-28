@@ -12,7 +12,6 @@
   .tracks1 {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
   }
 
@@ -32,42 +31,6 @@
   }
 }
 
-.test audio::-webkit-media-controls-panel {
-  height: 60px;
-  background-color: #a4cfc5;
-  border-radius: 0px;
-  transition: opacity 0.3s;
-}
-
-.test audio::-webkit-media-controls-panel:hover {
-  background-color: pink;
-}
-
-.test audio::-webkit-media-controls-play-button {
-  -webkit-appearance: media-play-button;
-  display: flex;
-  flex: none;
-  border: none;
-  box-sizing: border-box;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  margin-left: 9px;
-  margin-right: 9px;
-  padding: 0;
-  background-color: initial;
-  color: yellow;
-}
-
-/* .test {
-  background-color: yellowgreen;
-} */
-
-/* .player-wrap {
-  position: relative;
-  background-color: yellowgreen;
-} */
-
-.react-player {
-  background-color: #d95959;
+.reactPlayer {
+  background-color: #f2f2f2;
 }

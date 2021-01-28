@@ -34,36 +34,31 @@
 }
 /* Sofa Logo Start*/
 .termsAndConditions .termsAndConditionsPage #sofa {
-  width: 25%;
-}
-
-@media screen and (min-width: 1601px) and (max-width: 2400px) {
-  .termsAndConditions .termsAndConditionsPage #sofa {
-    width: 10%;
-  }
+  width: 40%;
+  margin: 25px;
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .termsAndConditions .termsAndConditionsPage #sofa {
-    width: 15%;
+    width: 22%;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .termsAndConditions .termsAndConditionsPage #sofa {
-    width: 20%;
+    width: 25%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .termsAndConditions .termsAndConditionsPage #sofa {
-    width: 20%;
+    width: 25%;
   }
 }
 
 @media screen and (min-width: 734px) and (max-width: 767px) {
   .termsAndConditions .termsAndConditionsPage #sofa {
-    width: 20%;
+    width: 25%;
   }
 }
 
@@ -85,12 +80,36 @@ li {
   margin: 10px;
 }
 
+.termsAndConditionsSheet .termsAndConditionsSheetPaper .tc {
+  margin: 10px 10px;
+}
+
+@media screen and (min-width: 1601px) and (max-width: 2400px) {
+  .termsAndConditions .termsAndConditionsPage p {
+    margin: 0px 470px;
+  }
+  .termsAndConditions .termsAndConditionsPage #sofa {
+    width: 15%;
+  }
+  .termsAndConditionsSheet .termsAndConditionsSheetPaper ol li {
+    margin: 0px 200px;
+  }
+
+  .termsAndConditionsSheet .termsAndConditionsSheetPaper .tc {
+    margin: 10px 10px;
+  }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .termsAndConditions .termsAndConditionsPage h1 {
     margin-top: 40px;
   }
   .termsAndConditions .termsAndConditionsPage p {
-    padding: 0px 80px;
+    margin: 0px 260px;
+  }
+
+  .termsAndConditionsSheet .termsAndConditionsSheetPaper ol li {
+    margin: 0px 120px;
   }
 }
 
@@ -142,8 +161,8 @@ li {
 
 @media screen and (min-width: 1601px) and (max-width: 2400px) {
   .termsAndConditions .termsAndConditionsPage .termsAndConditionsSheetPaper {
-    width: 60%;
-    margin-left: 20%;
+    width: 50%;
+    margin-left: 25%;
   }
 }
 
@@ -198,7 +217,7 @@ li {
   .termsAndConditionsSheet
   .termsAndConditionsSheetPaper
   #agreeButton {
-  width: 90%;
+  width: 70%;
 }
 
 .termsAndConditions
@@ -206,5 +225,5 @@ li {
   .termsAndConditionsSheet
   .termsAndConditionsSheetPaper
   #notAgreeButton {
-  width: 90%;
+  width: 70%;
 }

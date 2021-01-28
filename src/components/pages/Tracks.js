@@ -2,39 +2,22 @@ import React, { useState } from "react";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
-import play from "../images/play.svg";
-import pause from "../images/pause.svg";
 import tracks from "../stylesheets/tracks.css";
 import allAround from "../tracks/allAround.mp3";
 import ReactPlayer from "react-player";
 import doorsAreYouOk from "../tracks/doorsAreYouOk.mp3";
 import babiesAndWhales from "../tracks/babiesAndWhales.mp3";
-import PlayerControlers from "../playerControlers/PlayerControlers";
-
-const useStyles = makeStyles({
-  playerWrapper: {
-    width: "50%",
-    position: "relative",
-  },
-
-  controlsWrapper: {
-    position: "absolute",
-    left: 0,
-    right: 0,
-    bottom: 0,
-    background: "#d95959",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-    zIndex: 1,
-  },
-});
+import feedbacks from "../tracks/feedbacks.mp3";
+import sofasAndHuman from "../tracks/sofasAndHuman.mp3";
+import sofaMeditation from "../tracks/sofaMeditation.mp3";
+import CuddleYou from "../tracksDescription/CuddleYou";
+import DoorsAreYouOkay from "../tracksDescription/DoorsAreYouOkay";
+import PartyOfDoors from "../tracksDescription/PartyOfDoors";
+import HumanFeedback from "../tracksDescription/HumanFeedback";
+import SofasAndHuman from "../tracksDescription/SofasAndHuman";
+import GuidedMeditation from "../tracksDescription/GuidedMeditation";
 
 function Tracks() {
-  const classes = useStyles();
-
-  let audio = new Audio(babiesAndWhales);
-
   return (
     <Grid style={{ margin: "40px 0px" }}>
       <Box className="tracks1">
@@ -45,45 +28,22 @@ function Tracks() {
             margin: "20px",
           }}
         >
-          <Box
-            className="trackTitle"
-            style={{ display: "flex", flexDirection: "row" }}
-          >
-            {/* <img
-              src={play}
-              alt="play"
-              id="play"
-              style={{ marginRight: "10px" }}
-              onClick={() => audio.play()}
-            />
-
-            <img
-              src={pause}
-              alt="pause"
-              id="play"
-              style={{ marginRight: "10px" }}
-              onClick={() => audio.pause()}
-            /> */}
-
-            <h2 style={{ marginRight: "10px" }}>Cuddle You</h2>
-            {/* <h2 style={{ fontWeight: "100" }}>5:00 min</h2> */}
+          <Box className="trackTitle">
+            <h2 style={{ marginBottom: " 10px" }}>Cuddle You</h2>
           </Box>
-
-          <Box className={classes.playerWrapper}>
+          <Box className="player-wrap">
             <ReactPlayer
+              className="reactPlayer"
               url={allAround}
-              width="400px"
+              width="280px"
               height="50px"
               playing={false}
               controls={true}
-              style={{ marginTop: "10px", marginLeft: "-10px" }}
             />
           </Box>
+
           <Box className="trackDescription">
-            <p>
-              This song was made in France by Marija. In this song she expresses
-              her feelings towards and dreams about sofas of the world.{" "}
-            </p>
+            <CuddleYou />
           </Box>
         </Box>
         <Box
@@ -93,50 +53,22 @@ function Tracks() {
             margin: "20px",
           }}
         >
-          <Box
-            className="trackTitle"
-            style={{ display: "flex", flexDirection: "row" }}
-          >
-            {/* <img
-              src={play}
-              alt="play"
-              id="play"
-              style={{ marginRight: "10px" }}
-            /> */}
-            <h2 style={{ marginRight: "10px" }}>Doors, are you ok?</h2>
-            {/* <h2 style={{ fontWeight: "100" }}>2:00 min</h2> */}
+          <Box className="trackTitle">
+            <h2 style={{ marginBottom: " 10px" }}>Doors, are you ok?</h2>
           </Box>
           <Box className="player-wrap">
             <ReactPlayer
-              className="react-player"
+              className="reactPlayer"
               url={doorsAreYouOk}
-              width="400px"
+              width="280px"
               height="50px"
               playing={false}
               controls={true}
-              style={{ marginTop: "10px" }}
             />
           </Box>
-          {/* <Box className="test">
-            <audio className="test">
-              <source
-                src="../tracks/doorsAreYouOk.mp3"
-                type="audio/mpeg"
-              ></source>
-            </audio>
-          </Box> */}
 
           <Box className="trackDescription">
-            <p>
-              This song is a collaboration between Marija, Mark and the doors of
-              PAF (Performing Arts Forum). Marija always felt like sofa-type
-              personality, whilst Mark found out he is a door type personality.
-              Thus, they have decided to invite the doors of PAF to help with
-              the Soundtrack for Sofas. It is never clear what objects are
-              feeling or saying, or whether they have any consciousness at all.
-              Because of this not-knowing, the music of doors is melancholic and
-              sad.
-            </p>
+            <DoorsAreYouOkay />
           </Box>
         </Box>
       </Box>
@@ -149,39 +81,25 @@ function Tracks() {
             margin: "20px",
           }}
         >
-          <Box
-            className="trackTitle"
-            style={{ display: "flex", flexDirection: "row" }}
-          >
-            <img
-              src={play}
-              alt="play"
-              id="play"
-              style={{ marginRight: "10px" }}
-              onClick={() => audio.play()}
-            />
-
-            <img
-              src={pause}
-              alt="pause"
-              id="play"
-              style={{ marginRight: "10px" }}
-              onClick={() => audio.pause()}
-            />
-
-            <h2 style={{ marginRight: "10px" }}>
+          <Box className="trackTitle">
+            <h2 style={{ marginBottom: "10px" }}>
               Party of doors with a bit of whales and babies
             </h2>
-            {/* <h2 style={{ fontWeight: "100" }}>3:00 min</h2> */}
+          </Box>
+
+          <Box className="player-wrap">
+            <ReactPlayer
+              className="reactPlayer"
+              url={babiesAndWhales}
+              width="280px"
+              height="50px"
+              playing={false}
+              controls={true}
+            />
           </Box>
 
           <Box className="trackDescription">
-            <p>
-              Whilst exploring door sounds, Marija’s friend shared the
-              soundtrack of her baby. This made Marija and Mark recognize the
-              intrinsic similarity between the sounds of doors and babies (and
-              later on, whales) – we don’t know what they say, but we can party.
-            </p>
+            <PartyOfDoors />
           </Box>
         </Box>
         <Box
@@ -191,27 +109,24 @@ function Tracks() {
             margin: "20px",
           }}
         >
-          <Box
-            className="trackTitle"
-            style={{ display: "flex", flexDirection: "row" }}
-          >
-            <img
-              src={play}
-              alt="play"
-              id="play"
-              style={{ marginRight: "10px" }}
-            />
-            <h2 style={{ marginRight: "10px" }}>
+          <Box className="trackTitle">
+            <h2 style={{ marginBottom: "10px" }}>
               Human feedbacks and opinions on the sofa project
             </h2>
-            <h2 style={{ fontWeight: "100" }}>2:59 min</h2>
+          </Box>
+
+          <Box className="player-wrap">
+            <ReactPlayer
+              className="reactPlayer"
+              url={feedbacks}
+              width="280px"
+              height="50px"
+              playing={false}
+              controls={true}
+            />
           </Box>
           <Box className="trackDescription">
-            <p>
-              People always have a lot of questions and feedback about the sofa
-              project. During her solo show, Marija began collecting these human
-              opinions, which she decided to share with the sofas of the world.
-            </p>
+            <HumanFeedback />
           </Box>
         </Box>
       </Box>
@@ -228,29 +143,23 @@ function Tracks() {
             className="trackTitle"
             style={{ display: "flex", flexDirection: "row" }}
           >
-            <img
-              src={play}
-              alt="play"
-              id="play"
-              style={{ marginRight: "10px" }}
-            />
-            <h2 style={{ marginRight: "10px" }}>
+            <h2 style={{ marginBottom: "10px" }}>
               Sofas and Human Touch Party{" "}
             </h2>
-            <h2 style={{ fontWeight: "100" }}>6:06 min</h2>
+          </Box>
+
+          <Box className="player-wrap">
+            <ReactPlayer
+              className="reactPlayer"
+              url={sofasAndHuman}
+              width="280px"
+              height="50px"
+              playing={false}
+              controls={true}
+            />
           </Box>
           <Box className="trackDescription">
-            <p>
-              Humans are always interested in words and ideas. Sofas don’t care
-              about words and ideas (most probably). Marija discovered that it
-              is easier to connect with the public of sofas through touch and
-              physicality. While doing contemporary dance contact improvisation
-              research with sofas she has found that the sounds made by the
-              touch of humans and sofas reveals a lot about their relationship.
-              This was the moment when the idea of the soundtrack was conceived.
-              With the help of object-composer Mikas, she turned these sounds
-              into another party song.
-            </p>
+            <SofasAndHuman />
           </Box>
         </Box>
         <Box
@@ -260,46 +169,27 @@ function Tracks() {
             margin: "20px",
           }}
         >
-          <Box
-            className="trackTitle"
-            style={{ display: "flex", flexDirection: "row" }}
-          >
-            <img
-              src={play}
-              alt="play"
-              id="play"
-              style={{ marginRight: "10px" }}
-            />
-            <h2 style={{ marginRight: "10px" }}>
+          <Box className="trackTitle">
+            <h2 style={{ marginBottom: "10px" }}>
               Guided Meditation towards stillness for sofas and half sofas half
               humans
             </h2>
-            <h2 style={{ fontWeight: "100" }}>5:00 min</h2>
+          </Box>
+
+          <Box className="player-wrap">
+            <ReactPlayer
+              className="reactPlayer"
+              url={sofaMeditation}
+              width="280px"
+              height="50px"
+              playing={false}
+              controls={true}
+            />
           </Box>
           <Box className="trackDescription">
-            <p>
-              Relax. Make yourself as comfy as you can. Dive in. This is a
-              meditation made for both sofas and humans or half sofas half
-              humans. The intention of this meditation is to guide the audience
-              to total stillness and experience the pleasure of this state.
-            </p>
+            <GuidedMeditation />
           </Box>
         </Box>
-
-        {/* <Box className={classes.playerWrapper}>
-          <h1>here is new try</h1>
-          <ReactPlayer
-            url={allAround}
-            width="400px"
-            height="50px"
-            playing={false}
-            controls={true}
-          />
-
-          <Box className={classes.controlsWrapper}></Box> */}
-
-        {/* <PlayerControlers /> */}
-        {/* </Box> */}
       </Box>
     </Grid>
   );

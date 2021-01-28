@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import workshops from "../stylesheets/workshops.css";
 import workshopsImage from "../images/workshopsImage.svg";
+import Banner from "../pieces/Banner";
 
 function Workshops() {
   return (
@@ -31,6 +32,7 @@ function Workshops() {
           </p>
         </Box>
       </Box>
+      <Banner />
     </Grid>
   );
 }
