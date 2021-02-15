@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
-import aboutArtist from "../stylesheets/aboutArtist.css";
+import aboutCreator from "../stylesheets/aboutCreator.css";
 import sofaHeadNoGrass from "../images/sofaHeadNoGrass.png";
-import aboutCreator from "../images/aboutCreator.svg";
+import aboutCreatorImage from "../images/aboutCreatorImage.svg";
 import Banner from "../pieces/Banner";
 
 function AboutCreator() {
@@ -16,10 +16,10 @@ function AboutCreator() {
           className="photo"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={aboutCreator} alt="soundtracks" id="soundtrackPhoto" />
+          <img src={aboutCreatorImage} alt="soundtracks" id="soundtrackPhoto" />
         </Box>
         <Box className="description">
-          <p>
+          <h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
             eleifend suscipit felis non tempor. Proin neque ex, convallis
             viverra ipsum tempor, aliquet tempor felis. Pellentesque habitant
@@ -30,7 +30,7 @@ function AboutCreator() {
             lacus. Nullam eleifend ligula sed arcu mattis interdum. Cras sed
             bibendum est, nec lobortis nisi. Ut placerat malesuada nunc ac
             molestie.
-          </p>
+          </h1>
         </Box>
       </Box>
       <Banner />

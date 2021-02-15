@@ -21,14 +21,14 @@ function Soundtracks() {
           <img src={soundtrack} alt="soundtracks" id="soundtrackPhoto" />
         </Box>
         <Box className="description">
-          <p>
+          <h1>
             This is a soundtrack made for sofas created by object-music
             composers – Mark Liberman, Mikas Zabulionis, doors of PAF, sofas of
             Vyturys Hotel, human opinions and Marija Baranauskaitė.
             <br></br>
             <br></br>Please, put this soundtrack on for your sofas and become a
             sofa yourself to receive the music in its intended way.{" "}
-          </p>
+          </h1>
         </Box>
       </Box>
       <Tracks />

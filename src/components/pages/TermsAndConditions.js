@@ -36,18 +36,8 @@ function TermsAndConditions() {
         <p>
           The Sofa Project is a continuous, international and interdisciplinary
           artistic research oriented towards performing for sofas around the
-          world. The audience of this project is <b>non-human.</b> The work is
-          created <b>for furniture.</b>
-          <br></br> <br></br>
-          The creator of the project is Marija Baranauskaite. Due to the global
-          pandemic in 2020 she opened up her research and is inviting other
-          humans and artists{" "}
-          <b>to create and perform for their type of furniture or objects. </b>
-          <br></br> <br></br>
-          The project is <b>human friendly</b>, but is always oriented towards
-          giving for objects. So, if you are a human, before entering this
-          website created for sofas, please read and confirm the following terms
-          and conditions:
+          world. If you are a human, before entering the website created for
+          sofas, please read and confirm the following terms and conditions:
         </p>
 
         <Grid
@@ -67,7 +57,7 @@ function TermsAndConditions() {
             }}
           >
             <h2>Terms and Conditions</h2>
-            <p className="tc">For entering the website made for sofas </p>
+            <p className="tc">Entering the website for sofas </p>
             <hr
               style={{
                 height: 0.5,
@@ -77,37 +67,33 @@ function TermsAndConditions() {
               }}
             />
             <ol>
-              <li>
-                I understand that this website is not for humans, but for sofas.
-              </li>
+              <li>I understand that this website is not for humans.</li>
               <li>
                 I confirm that I am entering this website for the benefit of
-                sofas.
+                objects and furniture.
               </li>
               <li>
                 Upon entering the website, I am recommended to act as little
-                human as possible and as much as I can as a sofa: staying still,
-                present, passive, taking time, putting a blanket on my head,
-                inviting someone to sit on me and without too many human
-                thoughts or feelings.
+                human as possible and as much as I can as an object: staying
+                still, present, taking time, maybe putting a blanket on my head
+                if I feel like a couch and without too many human thoughts or
+                feelings.
               </li>
               <li>
-                I understand that sofas always depend on me, so it’s up to me to
-                decide if art made for furniture will reach my couch.
+                I understand that objects depend on me, so it’s up to me to
+                decide if art made for non-human publics will reach my objects.
               </li>
               <li>
                 I understand that this project is human friendly so I will do my
-                best to be sofa friendly too.
+                best to be object friendly too.
               </li>
               <li>
-                I will put a soundtrack created for sofas for my couch or for me
-                being a sofa.{" "}
+                I will put a soundtrack created for objects for my objects.
               </li>
               <li>
                 I will invite or I will consider the possibility of inviting
-                Marija to perform for sofas in my community. Or other artists
-                experienced in performances for different types of objects to
-                come and perform for my furniture.
+                Marija or other artists experienced in performances for objects
+                to come and perform for my things.
               </li>
             </ol>
 
@@ -129,7 +115,7 @@ function TermsAndConditions() {
                   color="primary"
                   href="/home"
                 >
-                  I say yes
+                  Yes, I confirm
                 </Button>
                 <img
                   src={yesConfirm}
@@ -156,7 +142,7 @@ function TermsAndConditions() {
                   color="default"
                   href="/home"
                 >
-                  I say no
+                  I don't confirm
                 </Button>
                 <img
                   src={noConfirm}

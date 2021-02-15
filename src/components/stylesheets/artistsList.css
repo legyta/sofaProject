@@ -1,0 +1,27 @@
+h3 {
+  margin-top: 15px;
+}
+p {
+  margin-top: 5px;
+}
+
+/* @media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .artistsList {
+    padding: 20px;
+  }
+} */
+
+@media screen and (min-width: 667px) and (max-width: 1600px) {
+  .artistsList {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .artistsList1 {
+    width: 50%;
+  }
+  .artistsList .artistsList1 {
+    width: 50%;
+    margin-top: 10x;
+  }
+}

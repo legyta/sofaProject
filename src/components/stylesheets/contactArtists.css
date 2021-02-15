@@ -1,0 +1,46 @@
+/* Photo and description section start */
+
+.photoAndDescription #contactArtistsPhoto {
+  width: 40%;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 1601px) and (max-width: 2400px) {
+  .workshopPhoto {
+    width: 40%;
+  }
+  #contactArtistsPhoto {
+    width: 75%;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 1600px) {
+  .workshopPhoto {
+    width: 40%;
+  }
+  #contactArtistsPhoto {
+    width: 60%;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 2400px) {
+  .workshopPhoto {
+    margin-top: 40px;
+  }
+  #contactArtistsPhoto {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  #contactArtistsPhoto {
+    width: 55%;
+  }
+}
+
+/* Photo and description section end */
+.description {
+  padding: 20px;
+}

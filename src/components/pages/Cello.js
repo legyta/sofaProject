@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Cello() {
   return (
     <div className="cello">
-      <Link to="/cello">celo</Link>
+      <Link to="/more-info">more info here</Link>
     </div>
   );
 }

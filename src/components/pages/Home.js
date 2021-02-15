@@ -50,7 +50,7 @@ function Home() {
             <Box style={{ display: "flex", flexDirection: "row" }}>
               <Box style={{ width: "30%" }}>
                 {" "}
-                <a href="/cello">
+                <a href="/more-info">
                   <img src={cello} alt="cello" id="celloImage" />
                 </a>
               </Box>

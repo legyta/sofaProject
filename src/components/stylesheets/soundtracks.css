@@ -1,3 +1,6 @@
+.description h1 {
+  font-size: 16px;
+}
 /* Photo and description section start */
 @media screen and (min-width: 667px) and (max-width: 2400px) {
   .photoAndDescription {
@@ -11,7 +14,7 @@
   margin-top: 40px;
 }
 
-.description p {
+.description h1 {
   padding: 25px;
 }
 
@@ -32,7 +35,7 @@
     display: flex;
     align-items: center;
   }
-  .description p {
+  .description h1 {
     padding: 120px;
   }
 }
@@ -50,7 +53,7 @@
     display: flex;
     align-items: center;
   }
-  .description p {
+  .description h1 {
     padding: 45px;
   }
 }
@@ -62,7 +65,7 @@
   #soundtrackPhoto {
     width: 55%;
   }
-  .description p {
+  .description h1 {
     margin: 0px 260px;
   }
 }
@@ -74,7 +77,7 @@
   #soundtrackPhoto {
     width: 75%;
   }
-  .description p {
+  .description h1 {
     margin: 0px 120px;
   }
 }
