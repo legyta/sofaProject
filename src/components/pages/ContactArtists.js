@@ -17,6 +17,7 @@ function ContactArtists() {
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
+            style={{ marginTop: "40px" }}
             src={contactArtistsImage}
             alt="soundtracks"
             id="contactArtistsPhoto"
