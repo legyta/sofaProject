@@ -1,0 +1,25 @@
+.theSofaProject {
+  padding: 25px 25px 0px 25px;
+}
+.title h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+}
+@media screen and (min-width: 667px) and (max-width: 1600px) {
+  .sofaProjectPhotoAndDescription {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 1600px) {
+  .sofaProjectPhotoAndDescription .photo {
+    width: 50%;
+  }
+  .sofaProjectDescription {
+    width: 50%;
+  }
+}
