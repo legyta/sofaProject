@@ -1,0 +1,209 @@
+#firstImage {
+  position: absolute;
+  top: 440px;
+  margin-left: 0px;
+  width: 300px;
+}
+
+#secondImage {
+  position: absolute;
+  top: 320px;
+  width: 220px;
+  margin-left: 80px;
+}
+
+#thirdImage {
+  position: absolute;
+  top: 300px;
+  width: 360px;
+  margin-left: 70px;
+}
+
+#celloImage {
+  position: absolute;
+  top: -20px;
+  width: 300px;
+}
+
+#fourthImage {
+  position: absolute;
+  top: 220px;
+  width: 280px;
+  margin-left: 220px;
+}
+
+#fifthImage {
+  position: absolute;
+  top: 280px;
+  margin-left: 110px;
+  width: 180px;
+}
+
+#aboutprojectImage {
+  position: absolute;
+  top: -130px;
+  width: 340px;
+}
+
+/* RESPONSIVENESS */
+@media screen and (min-width: 1601px) {
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (min-width: 734px) and (max-width: 767px) {
+  #firstImage {
+    top: -340px;
+    margin-left: 110px;
+    width: 200px;
+  }
+
+  #secondImage {
+    top: -160px;
+    width: 180px;
+  }
+
+  #celloImage {
+    top: -100px;
+    width: 150px;
+    margin-left: -20px;
+  }
+
+  #fourthImage {
+    top: -60px;
+    width: 220px;
+  }
+
+  #fifthImage {
+    top: 45px;
+    margin-left: 280px;
+    width: 140px;
+  }
+
+  #aboutprojectImage {
+    top: -50px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 684px) and (max-width: 733px) {
+  .child {
+    margin-top: 240px;
+  }
+
+  #firstImage {
+    top: -180px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  #secondImage {
+    top: -160px;
+    width: 180px;
+  }
+
+  #celloImage {
+    top: -100px;
+    width: 150px;
+    margin-left: -20px;
+  }
+
+  #fourthImage {
+    top: -60px;
+    width: 220px;
+  }
+
+  #fifthImage {
+    top: 60px;
+    margin-left: 280px;
+    width: 140px;
+  }
+
+  #aboutprojectImage {
+    top: -40px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 683px) {
+}
+
+@media screen and (min-width: 412px) and (max-width: 666px) {
+  #firstImage {
+    top: -180px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  #secondImage {
+    top: -160px;
+    width: 180px;
+  }
+
+  #celloImage {
+    top: -100px;
+    width: 150px;
+    margin-left: -20px;
+  }
+
+  #fourthImage {
+    top: -60px;
+    width: 220px;
+  }
+
+  #fifthImage {
+    top: 60px;
+    margin-left: 140px;
+    width: 140px;
+  }
+
+  #aboutprojectImage {
+    top: 120px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
+  #firstImage {
+    top: -180px;
+    margin-left: 10px;
+    width: 200px;
+  }
+
+  #secondImage {
+    top: -160px;
+    width: 180px;
+  }
+
+  #celloImage {
+    top: -100px;
+    width: 150px;
+    margin-left: -20px;
+  }
+
+  #fourthImage {
+    top: -60px;
+    width: 220px;
+  }
+
+  #fifthImage {
+    top: 60px;
+    margin-left: 140px;
+    width: 140px;
+  }
+
+  #aboutprojectImage {
+    top: 120px;
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 220px) and (max-width: 374) {
+}

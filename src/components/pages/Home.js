@@ -13,6 +13,7 @@ import cello from "../images/cello.png";
 import mariaOnSofa from "../images/mariaOnSofa.png";
 import carpet from "../images/carpet.png";
 import home from "../stylesheets/home.css";
+import background from "../images/background.png";
 
 function Home() {
   return (
@@ -26,7 +27,69 @@ function Home() {
     >
       <div class="parent">
         <div class="child">
-          <Box style={{ display: "flex", flexDirection: "column" }}>
+          <Box
+            style={{
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            {" "}
+            <Box style={{ display: "flex", flexDirection: "row" }}>
+              <Box style={{ width: "50%" }}>
+                <a href="/workshops">
+                  <img
+                    src={lempa}
+                    alt="recommendations"
+                    id="recommendationsImage"
+                  />
+                </a>
+              </Box>
+              <Box style={{ width: "50%" }}>
+                <a href="/contact-artists">
+                  <img
+                    src={spinta}
+                    alt="theworldaroundsofa"
+                    id="theworldaroundsofaImage"
+                  />
+                </a>
+              </Box>
+            </Box>
+            <Box style={{ display: "flex", flexDirection: "row" }}>
+              <Box style={{ width: "30%" }}>
+                {" "}
+                <a href="/more-info">
+                  <img src={cello} alt="cello" id="celloImage" />
+                </a>
+              </Box>
+              <Box style={{ width: "80%" }}>
+                {" "}
+                <a href="/about-creator">
+                  <img
+                    src={mariaOnSofa}
+                    alt="aboutartist"
+                    id="aboutArtistImage"
+                  />
+                </a>
+              </Box>
+            </Box>
+            <Box style={{ display: "flex", flexDirection: "row" }}>
+              <Box style={{ width: "80%" }}>
+                {" "}
+                <a href="/soundtracks">
+                  <img src={carpet} alt="soundtracks" id="soundtracksImage" />
+                </a>
+              </Box>
+              <Box style={{ width: "40%" }} className="aboutProjectBox">
+                {" "}
+                <a href="/performances-for-objects">
+                  <img
+                    src={sofaBrown}
+                    alt="aboutproject"
+                    id="aboutprojectImage"
+                  />
+                </a>
+              </Box>
+            </Box>
             <Box style={{ display: "flex", flexDirection: "row" }}>
               <Box style={{ width: "50%" }}>
                 <a href="/workshops">
