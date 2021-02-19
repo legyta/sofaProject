@@ -1,15 +1,15 @@
 import React from "react";
 import Box from "@material-ui/core/Box";
 import { Link } from "react-router-dom";
-import background from "../images/background.png";
-import lempa from "../images/lempa.png";
-import spinta from "../images/spinta.png";
-import aboutthecreatorfinal from "../images/aboutthecreatorfinal.png";
+import aboutthecreatorfinalResized from "../images/aboutthecreatorfinalResized.png";
 import Soundtrackforsofafinal from "../images/Soundtrackforsofafinal.png";
-import workshopsfinal from "../images/workshopsfinal.png";
+import workshopsfinalResized from "../images/workshopsfinalResized.png";
 import contacttheartistsfinal from "../images/contacttheartistsfinal.png";
-import PerformancesforObjectsfinal from "../images/PerformancesforObjectsfinal.png";
+import PerformancesforObjectsfinalResized from "../images/PerformancesforObjectsfinalResized.png";
 import homePage from "../stylesheets/homePage.css";
+import backgroundResized2 from "../images/backgroundResized2.png";
+import lampResized from "../images/lampResized.png";
+import bwblanket2 from "../images/bwblanket2.png";
 
 function Cello() {
   return (
@@ -17,7 +17,7 @@ function Cello() {
       <div
         className="cello"
         style={{
-          backgroundImage: `url(${background})`,
+          backgroundImage: `url(${backgroundResized2})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "100vh",
@@ -31,18 +31,26 @@ function Cello() {
             flexDirection: "column",
           }}
         >
+          <a href="/about-creator">
+            <img src={bwblanket2} alt="recommendations" id="blanketImage" />
+          </a>
+          <Box>
+            <a href="/about-creator">
+              <img src={lampResized} alt="recommendations" id="sixthImage" />
+            </a>
+          </Box>
           <Box style={{ display: "flex", flexDirection: "row" }}>
             <Box style={{ width: "50%" }}>
-              <a href="/workshops">
+              <a href="/about-creator">
                 <img
-                  src={aboutthecreatorfinal}
+                  src={aboutthecreatorfinalResized}
                   alt="recommendations"
                   id="fourthImage"
                 />
               </a>
             </Box>
             <Box style={{ width: "50%" }}>
-              <a href="/contact-artists">
+              <a href="/soundtracks">
                 <img
                   src={Soundtrackforsofafinal}
                   alt="theworldaroundsofa"
@@ -56,7 +64,7 @@ function Cello() {
             <Box style={{ width: "33%" }}>
               <a href="/workshops">
                 <img
-                  src={workshopsfinal}
+                  src={workshopsfinalResized}
                   alt="recommendations"
                   id="firstImage"
                 />
@@ -72,9 +80,9 @@ function Cello() {
               </a>
             </Box>
             <Box style={{ width: "33%" }}>
-              <a href="/contact-artists">
+              <a href="/performances-for-objects">
                 <img
-                  src={PerformancesforObjectsfinal}
+                  src={PerformancesforObjectsfinalResized}
                   alt="theworldaroundsofa"
                   id="thirdImage"
                 />

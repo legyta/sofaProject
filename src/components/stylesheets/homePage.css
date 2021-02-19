@@ -1,8 +1,21 @@
+#blanketImage {
+  /* position: absolute; */
+  /* top: 440px; */
+  margin-left: 0px;
+  height: 120vh;
+  width: 1300px;
+  size: cover;
+}
+
 #firstImage {
   position: absolute;
   top: 440px;
   margin-left: 0px;
   width: 300px;
+}
+
+#firstImage:hover {
+  content: url("../images/workshops_titleResized.png");
 }
 
 #secondImage {
@@ -12,11 +25,19 @@
   margin-left: 80px;
 }
 
+#secondImage:hover {
+  content: url("../images/contacttheartists_titleResized.png");
+}
+
 #thirdImage {
   position: absolute;
   top: 300px;
   width: 360px;
   margin-left: 70px;
+}
+
+#thirdImage:hover {
+  content: url("../images/performancesforobjects_titleResized.png");
 }
 
 #celloImage {
@@ -32,11 +53,26 @@
   margin-left: 220px;
 }
 
+#fourthImage:hover {
+  content: url("../images/aboutthecreator_titleResized.png");
+}
+
 #fifthImage {
   position: absolute;
   top: 280px;
   margin-left: 110px;
   width: 180px;
+}
+
+#fifthImage:hover {
+  content: url("../images/soundtracksforsofas_titleResized.png");
+}
+
+#sixthImage {
+  position: absolute;
+  top: -10px;
+  width: 320px;
+  margin-left: 480px;
 }
 
 #aboutprojectImage {
@@ -166,42 +202,52 @@
 
   #aboutprojectImage {
     top: 120px;
-    width: 140px;
+    width: 10px;
   }
 }
 
 @media screen and (min-width: 375px) and (max-width: 411px) {
+  #blanketImage {
+    margin-left: 0px;
+    height: 50vh;
+    width: 374px;
+  }
+
   #firstImage {
-    top: -180px;
-    margin-left: 10px;
-    width: 200px;
-  }
-
-  #secondImage {
-    top: -160px;
+    top: 590px;
     width: 180px;
-  }
-
-  #celloImage {
-    top: -100px;
-    width: 150px;
     margin-left: -20px;
   }
 
+  #secondImage {
+    top: 430px;
+    width: 135px;
+    margin-left: -25px;
+  }
+
+  #thirdImage {
+    top: 520px;
+    width: 210px;
+    margin-left: -83px;
+  }
+
   #fourthImage {
-    top: -60px;
-    width: 220px;
+    top: 300px;
+    margin-left: 185px;
+    width: 160px;
   }
 
   #fifthImage {
-    top: 60px;
-    margin-left: 140px;
-    width: 140px;
+    top: 300px;
+    margin-left: -170px;
+    width: 130px;
   }
 
-  #aboutprojectImage {
-    top: 120px;
-    width: 140px;
+  #sixthImage {
+    position: absolute;
+    top: -5px;
+    width: 240px;
+    margin-left: 70px;
   }
 }
 

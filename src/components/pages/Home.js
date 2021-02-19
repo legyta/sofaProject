@@ -1,155 +1,93 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
-import sofaGreenMaria from "../images/sofaGreenMaria.PNG";
-import chairStreetMaria from "../images/chairStreetMaria.PNG";
-// import sofaMariaHead from "../images/sofaMariaHead.png";
-import sofaMariaHead2 from "../images/sofaMariaHead2.png";
-import mariaBlanket from "../images/mariaBlanket.png";
-import sofaBrown from "../images/sofaBrown.png";
-import lempa from "../images/lempa.png";
-import spinta from "../images/spinta.png";
-import cello from "../images/cello.png";
-import mariaOnSofa from "../images/mariaOnSofa.png";
-import carpet from "../images/carpet.png";
-import home from "../stylesheets/home.css";
-import background from "../images/background.png";
+import { Link } from "react-router-dom";
+import aboutthecreatorfinalResized from "../images/aboutthecreatorfinalResized.png";
+import Soundtrackforsofafinal from "../images/Soundtrackforsofafinal.png";
+import workshopsfinalResized from "../images/workshopsfinalResized.png";
+import contacttheartistsfinal from "../images/contacttheartistsfinal.png";
+import PerformancesforObjectsfinalResized from "../images/PerformancesforObjectsfinalResized.png";
+import homePage from "../stylesheets/homePage.css";
+import background2Resized from "../images/background2Resized.png";
+import lampResized from "../images/lampResized.png";
 
 function Home() {
   return (
-    <Grid
-      container
-      direction="column"
-      justify="center"
-      alignItems="left"
-      className="index"
-      id="index"
-    >
-      <div class="parent">
-        <div class="child">
-          <Box
-            style={{
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            {" "}
-            <Box style={{ display: "flex", flexDirection: "row" }}>
-              <Box style={{ width: "50%" }}>
-                <a href="/workshops">
-                  <img
-                    src={lempa}
-                    alt="recommendations"
-                    id="recommendationsImage"
-                  />
-                </a>
-              </Box>
-              <Box style={{ width: "50%" }}>
-                <a href="/contact-artists">
-                  <img
-                    src={spinta}
-                    alt="theworldaroundsofa"
-                    id="theworldaroundsofaImage"
-                  />
-                </a>
-              </Box>
+    <div container>
+      <div
+        className="cello"
+        style={{
+          backgroundImage: `url(${background2Resized})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          height: "100vh",
+          width: "max-width",
+          backgroundPosition: "center",
+        }}
+      >
+        <Box
+          style={{
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <Box>
+            <a href="/about-creator">
+              <img src={lampResized} alt="recommendations" id="sixthImage" />
+            </a>
+          </Box>
+          <Box style={{ display: "flex", flexDirection: "row" }}>
+            <Box style={{ width: "50%" }}>
+              <a href="/about-creator">
+                <img
+                  src={aboutthecreatorfinalResized}
+                  alt="recommendations"
+                  id="fourthImage"
+                />
+              </a>
             </Box>
-            <Box style={{ display: "flex", flexDirection: "row" }}>
-              <Box style={{ width: "30%" }}>
-                {" "}
-                <a href="/more-info">
-                  <img src={cello} alt="cello" id="celloImage" />
-                </a>
-              </Box>
-              <Box style={{ width: "80%" }}>
-                {" "}
-                <a href="/about-creator">
-                  <img
-                    src={mariaOnSofa}
-                    alt="aboutartist"
-                    id="aboutArtistImage"
-                  />
-                </a>
-              </Box>
-            </Box>
-            <Box style={{ display: "flex", flexDirection: "row" }}>
-              <Box style={{ width: "80%" }}>
-                {" "}
-                <a href="/soundtracks">
-                  <img src={carpet} alt="soundtracks" id="soundtracksImage" />
-                </a>
-              </Box>
-              <Box style={{ width: "40%" }} className="aboutProjectBox">
-                {" "}
-                <a href="/performances-for-objects">
-                  <img
-                    src={sofaBrown}
-                    alt="aboutproject"
-                    id="aboutprojectImage"
-                  />
-                </a>
-              </Box>
-            </Box>
-            <Box style={{ display: "flex", flexDirection: "row" }}>
-              <Box style={{ width: "50%" }}>
-                <a href="/workshops">
-                  <img
-                    src={lempa}
-                    alt="recommendations"
-                    id="recommendationsImage"
-                  />
-                </a>
-              </Box>
-              <Box style={{ width: "50%" }}>
-                <a href="/contact-artists">
-                  <img
-                    src={spinta}
-                    alt="theworldaroundsofa"
-                    id="theworldaroundsofaImage"
-                  />
-                </a>
-              </Box>
-            </Box>
-            <Box style={{ display: "flex", flexDirection: "row" }}>
-              <Box style={{ width: "30%" }}>
-                {" "}
-                <a href="/more-info">
-                  <img src={cello} alt="cello" id="celloImage" />
-                </a>
-              </Box>
-              <Box style={{ width: "80%" }}>
-                {" "}
-                <a href="/about-creator">
-                  <img
-                    src={mariaOnSofa}
-                    alt="aboutartist"
-                    id="aboutArtistImage"
-                  />
-                </a>
-              </Box>
-            </Box>
-            <Box style={{ display: "flex", flexDirection: "row" }}>
-              <Box style={{ width: "80%" }}>
-                {" "}
-                <a href="/soundtracks">
-                  <img src={carpet} alt="soundtracks" id="soundtracksImage" />
-                </a>
-              </Box>
-              <Box style={{ width: "40%" }} className="aboutProjectBox">
-                {" "}
-                <a href="/performances-for-objects">
-                  <img
-                    src={sofaBrown}
-                    alt="aboutproject"
-                    id="aboutprojectImage"
-                  />
-                </a>
-              </Box>
+            <Box style={{ width: "50%" }}>
+              <a href="/soundtracks">
+                <img
+                  src={Soundtrackforsofafinal}
+                  alt="theworldaroundsofa"
+                  id="fifthImage"
+                />
+              </a>
             </Box>
           </Box>
-        </div>
+
+          <Box style={{ display: "flex", flexDirection: "row" }}>
+            <Box style={{ width: "33%" }}>
+              <a href="/workshops">
+                <img
+                  src={workshopsfinalResized}
+                  alt="recommendations"
+                  id="firstImage"
+                />
+              </a>
+            </Box>
+            <Box style={{ width: "33%" }}>
+              <a href="/contact-artists">
+                <img
+                  src={contacttheartistsfinal}
+                  alt="theworldaroundsofa"
+                  id="secondImage"
+                />
+              </a>
+            </Box>
+            <Box style={{ width: "33%" }}>
+              <a href="/performances-for-objects">
+                <img
+                  src={PerformancesforObjectsfinalResized}
+                  alt="theworldaroundsofa"
+                  id="thirdImage"
+                />
+              </a>
+            </Box>
+          </Box>
+        </Box>
       </div>
-    </Grid>
+    </div>
   );
 }
 
