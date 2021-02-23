@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import aboutCreator from "../stylesheets/aboutCreator.css";
-import sofaHeadNoGrass from "../images/sofaHeadNoGrass.png";
 import theSofaProject from "../images/theSofaProject.svg";
 import TheSofaProject from "../pieces/TheSofaProject";
 import WorldAroundSofa from "../pieces/WorldAroundSofa";
+import TheCelloProject from "../pieces/TheCelloProject";
 import Banner from "../pieces/Banner";
 
 function AboutArtist() {
@@ -23,6 +23,7 @@ function AboutArtist() {
       </Box>
       <TheSofaProject />
       <WorldAroundSofa />
+      <TheCelloProject />
       <Banner />
     </Grid>
   );

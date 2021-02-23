@@ -8,6 +8,7 @@
 h2 {
   font-size: 20px;
 }
+
 @media screen and (min-width: 667px) and (max-width: 1600px) {
   .sofaProjectPhotoAndDescription {
     display: flex;

@@ -38,17 +38,18 @@ function WorldAroundSofa() {
             global pandemic. This is a continuous creative process of the solo
             project “The Sofa Project“ launched by Marija Baranauskaitė in 2018,
             which explores the possibilities of creating performances for
-            audiences comprised of furniture instead of people. One of the main
-            goals of the project is to visit local sofas from different
-            countries, but once the pandemic struck, a quick solution has been
-            found - 7 artists from different continents are taking care of the
-            well-being of local furniture in their countries. How to travel
-            around the world after a pandemic starts? Is it possible to create
-            not only for sofas but also for other things? Could this alleviate
-            the anxiety of artists who are afraid of losing their audience? How
-            and why should we create together? During the performance, live
-            audience watches how artists present their art for furniture online
-            (through the screen in the space).
+            audiences comprised of furniture instead of people. <br></br>
+            <br></br>One of the main goals of the project is to visit local
+            sofas from different countries, but once the pandemic struck, a
+            quick solution has been found - 7 artists from different continents
+            are taking care of the well-being of local furniture in their
+            countries. <br></br>
+            <br></br> How to travel around the world after a pandemic starts? Is
+            it possible to create not only for sofas but also for other things?
+            Could this alleviate the anxiety of artists who are afraid of losing
+            their audience? How and why should we create together? During the
+            performance, live audience watches how artists present their art for
+            furniture online (through the screen in the space).
           </p>
         </Box>
         <Box
@@ -106,6 +107,13 @@ function WorldAroundSofa() {
           />
         </Box>
       </Box>
+      <hr
+        style={{
+          height: 0.5,
+          backgroundColor: "#000",
+          margin: "40px 0px",
+        }}
+      />
     </Grid>
   );
 }
