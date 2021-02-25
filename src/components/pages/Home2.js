@@ -37,7 +37,7 @@ function Home2() {
           </Box>
           <Box style={{ display: "flex", flexDirection: "row" }}>
             <Box style={{ width: "50%" }}>
-              <a href="/about-creator">
+              <a href="/more-ideas">
                 <img
                   src={aboutthecreatorfinalResized}
                   alt="recommendations"
