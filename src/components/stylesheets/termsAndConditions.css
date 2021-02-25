@@ -227,3 +227,9 @@ li {
   #notAgreeButton {
   width: 70%;
 }
+
+@media screen and (min-width: 375px) and (max-width: 734px) {
+  .popupText text {
+    font-size: 8px;
+  }
+}
