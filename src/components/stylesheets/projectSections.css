@@ -24,3 +24,51 @@ h2 {
     width: 50%;
   }
 }
+
+@media screen and (min-width: 735px) and (max-width: 768px) {
+  #playPhilosophy1 {
+    width: 80%;
+  }
+  #playPhilosophy2 {
+    width: 80%;
+  }
+  /* #playPhilosophy3 {
+    width: 100%;
+  }
+  #performForObjects1 {
+    width: 80%;
+  }
+  #performForObjects2 {
+    width: 80%;
+  } */
+}
+
+@media screen and (min-width: 666px) and (max-width: 734px) {
+  #playPhilosophy1 {
+    width: 90%;
+  }
+  #playPhilosophy2 {
+    width: 90%;
+  }
+  #playPhilosophy3 {
+    width: 100%;
+  }
+  #performForObjects1 {
+    width: 80%;
+  }
+  #performForObjects2 {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 374px) and (max-width: 665px) {
+  #playPhilosophy1 {
+    width: 100%;
+  }
+  #playPhilosophy2 {
+    width: 100%;
+  }
+  #playPhilosophy3 {
+    width: 95%;
+  }
+}

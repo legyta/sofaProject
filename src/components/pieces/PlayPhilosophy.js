@@ -26,13 +26,13 @@ function PlayPhilosophy() {
           <img
             src={playPhilosophy2}
             alt="sofaProject"
-            id="contactImproPhoto1"
+            id="playPhilosophy1"
             style={{ marginTop: "20px", marginRight: "5px" }}
           />
           <img
             src={playPhilosophy3}
             alt="sofaProject"
-            id="contactImproPhoto2"
+            id="playPhilosophy1"
             style={{ marginTop: "20px" }}
           />
 
@@ -70,7 +70,7 @@ function PlayPhilosophy() {
           <img
             src={playPhilosophy1}
             alt="sofaProject"
-            id="contactImproPhoto2"
+            id="playPhilosophy3"
             style={{ marginTop: "20px" }}
           />
         </Box>

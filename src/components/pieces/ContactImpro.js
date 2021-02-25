@@ -7,7 +7,7 @@ import contactImpro2 from "../images/contactImpro2.png";
 
 function ContactImpro() {
   return (
-    <Grid className="theSofaProject" style={{ marginTop: "40px" }}>
+    <Grid className="theSofaProject" style={{ marginTop: "20px" }}>
       <Box className="title">
         <h1>Contact Dance Improvisation Workshop for Sofas</h1>
       </Box>

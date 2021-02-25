@@ -16,13 +16,13 @@ function PerformForObjects() {
           <img
             src={performForObjects1}
             alt="sofaProject"
-            id="contactImproPhoto1"
+            id="performForObjects1"
             style={{ marginTop: "20px", marginRight: "5px" }}
           />
           <img
             src={performForObjects2}
             alt="sofaProject"
-            id="contactImproPhoto2"
+            id="performForObjects2"
             style={{ marginTop: "20px" }}
           />
           <caption

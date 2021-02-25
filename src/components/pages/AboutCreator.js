@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import aboutCreator from "../stylesheets/aboutCreator.css";
-import sofaHeadNoGrass from "../images/sofaHeadNoGrass.png";
+import aboutArtistImage from "../images/aboutArtistImage.png";
 import aboutCreatorImage from "../images/aboutCreatorImage.svg";
+import ArtistBio from "../pieces/ArtistBio";
+import ArtistBio2 from "../pieces/ArtistBio2";
 import Banner from "../pieces/Banner";
 
 function AboutCreator() {
@@ -20,19 +22,19 @@ function AboutCreator() {
         </Box>
         <Box className="description">
           <h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            eleifend suscipit felis non tempor. Proin neque ex, convallis
-            viverra ipsum tempor, aliquet tempor felis. Pellentesque habitant
-            morbi tristique senectus et netus et malesuada fames ac turpis
-            egestas.
+            Sometimes it was as if the sofa and I were extra much connected. As
+            if our cosiness, softness, cuteness, ignorance and heaviness were
+            one.
             <br></br>
-            <br></br>Vivamus non magna tempor, volutpat ante non, faucibus
-            lacus. Nullam eleifend ligula sed arcu mattis interdum. Cras sed
-            bibendum est, nec lobortis nisi. Ut placerat malesuada nunc ac
-            molestie.
+            <br></br>Sofa has always invited me to sit, to take a nap, to make
+            out, to relax and stay still. And why should I ever move away? But,
+            being in such an intense relationship made the issues of the
+            miserable life pop up.
           </h1>
         </Box>
       </Box>
+      <ArtistBio />
+      <ArtistBio2 />
       <Banner />
     </Grid>
   );

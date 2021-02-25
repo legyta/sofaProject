@@ -31,14 +31,22 @@ function Workshops() {
             of sofanity. The workshops can be held both physically and online,
             during special events or casual situations.{" "}
           </h1>
-          <Box style={{ display: "flex", flexDirection: "row" }}>
+          {/* <Box
+            className="workshopsDemoPhoto"
+            style={{
+              paddingLeft: "25px",
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
             <img
               src={workshops1}
+              id="workshopPhoto1"
               alt="workshops"
               style={{ marginRight: "5px" }}
             />
-            <img src={workshops2} alt="workshops" />
-          </Box>
+            <img src={workshops2} alt="workshops" id="workshopPhoto2" />
+          </Box> */}
         </Box>
       </Box>
       <ContactImpro />
