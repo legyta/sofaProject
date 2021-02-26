@@ -5,6 +5,7 @@ import Box from "@material-ui/core/Box";
 import contactArtistsImage from "../images/contactArtistsImage.svg";
 import ContactDetails from "../pieces/ContactDetails";
 import ArtistsList from "../pieces/ArtistsList";
+import doors from "../images/doors.PNG";
 import Banner from "../pieces/Banner";
 
 function ContactArtists() {
@@ -34,6 +35,9 @@ function ContactArtists() {
             You can contact us for further inquiries
             <ContactDetails />
           </h1>
+          <a href="/home">
+            <img src={doors} alt="doors" id="doors" />
+          </a>
         </Box>
       </Box>
       <ArtistsList />

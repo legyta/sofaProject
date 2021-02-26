@@ -15,7 +15,7 @@
 }
 
 .description h1 {
-  padding: 25px;
+  padding: 25px 5px 25px 25px;
 }
 
 @media screen and (min-width: 1601px) and (max-width: 2400px) {
@@ -36,7 +36,7 @@
     align-items: center;
   }
   .description h1 {
-    padding: 120px;
+    padding: 120px 5px 120px 120px;
   }
 }
 
@@ -54,7 +54,7 @@
     align-items: center;
   }
   .description h1 {
-    padding: 45px;
+    padding: 45px 5px 45px 45px;
   }
 }
 
@@ -66,7 +66,7 @@
     width: 55%;
   }
   .description h1 {
-    margin: 0px 260px;
+    margin: 0px 5px 0px 260px;
   }
 }
 
@@ -78,7 +78,7 @@
     width: 75%;
   }
   .description h1 {
-    margin: 0px 120px;
+    margin: 0px 5px 0px 120px;
   }
 }
 
@@ -87,7 +87,7 @@
     margin-top: 40px;
   }
   .description p {
-    padding: 60px;
+    padding: 60px 5px 60px 60px;
   }
 }
 

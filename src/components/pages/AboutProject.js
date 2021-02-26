@@ -7,6 +7,7 @@ import theSofaProject from "../images/theSofaProject.svg";
 import TheSofaProject from "../pieces/TheSofaProject";
 import WorldAroundSofa from "../pieces/WorldAroundSofa";
 import TheCelloProject from "../pieces/TheCelloProject";
+import doors from "../images/doors.PNG";
 import Banner from "../pieces/Banner";
 
 function AboutArtist() {
@@ -20,6 +21,14 @@ function AboutArtist() {
         >
           <img src={theSofaProject} alt="soundtracks" id="soundtrackPhoto" />
         </Box>
+        <a href="/home">
+          <img
+            style={{ width: "60px", marginLeft: "620px" }}
+            src={doors}
+            alt="doors"
+            id="doors"
+          />
+        </a>
       </Box>
       <TheSofaProject />
       <WorldAroundSofa />

@@ -9,6 +9,7 @@ import workshops2 from "../images/workshops2.png";
 import ContactImpro from "../pieces/ContactImpro";
 import PerformForObjects from "../pieces/PerformForObjects";
 import PlayPhilosophy from "../pieces/PlayPhilosophy";
+import doors from "../images/doors.PNG";
 import Banner from "../pieces/Banner";
 
 function Workshops() {
@@ -24,29 +25,16 @@ function Workshops() {
         </Box>
         <Box
           className="description"
-          style={{ display: "flex", flexDirection: "column" }}
+          style={{ display: "flex", flexDirection: "row" }}
         >
           <h1>
             Here you can find the list of workshops which explore the ontology
             of sofanity. The workshops can be held both physically and online,
             during special events or casual situations.{" "}
           </h1>
-          {/* <Box
-            className="workshopsDemoPhoto"
-            style={{
-              paddingLeft: "25px",
-              display: "flex",
-              flexDirection: "row",
-            }}
-          >
-            <img
-              src={workshops1}
-              id="workshopPhoto1"
-              alt="workshops"
-              style={{ marginRight: "5px" }}
-            />
-            <img src={workshops2} alt="workshops" id="workshopPhoto2" />
-          </Box> */}
+          <a href="/home">
+            <img src={doors} alt="doors" id="doors" />
+          </a>
         </Box>
       </Box>
       <ContactImpro />

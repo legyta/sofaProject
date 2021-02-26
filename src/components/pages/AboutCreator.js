@@ -7,6 +7,7 @@ import aboutArtistImage from "../images/aboutArtistImage.png";
 import aboutCreatorImage from "../images/aboutCreatorImage.svg";
 import ArtistBio from "../pieces/ArtistBio";
 import ArtistBio2 from "../pieces/ArtistBio2";
+import doors from "../images/doors.PNG";
 import Banner from "../pieces/Banner";
 
 function AboutCreator() {
@@ -31,6 +32,9 @@ function AboutCreator() {
             being in such an intense relationship made the issues of the
             miserable life pop up.
           </h1>
+          <a href="/home">
+            <img  src={doors} alt="doors" id="doors" />
+          </a>
         </Box>
       </Box>
       <ArtistBio />
