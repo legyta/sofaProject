@@ -92,3 +92,15 @@
 }
 
 /* Photo and description section end */
+
+/* #doors {
+  width: 60%;
+  margin-right: 40px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .description #doors {
+    width: 20%;
+    margin-top: 30px;
+  }
+} */

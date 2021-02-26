@@ -49,5 +49,6 @@
 @media screen and (min-width: 375px) and (max-width: 414px) {
   #doors {
     margin-top: 30px;
+    width: 40%;
   }
 }

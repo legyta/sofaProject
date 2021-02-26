@@ -35,9 +35,9 @@ function ContactArtists() {
             You can contact us for further inquiries
             <ContactDetails />
           </h1>
-          <a href="/home">
+          {/* <a href="/home">
             <img src={doors} alt="doors" id="doors" />
-          </a>
+          </a> */}
         </Box>
       </Box>
       <ArtistsList />

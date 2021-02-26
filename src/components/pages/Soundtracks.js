@@ -30,9 +30,9 @@ function Soundtracks() {
             <br></br>Please, put this soundtrack on for your sofas and become a
             sofa yourself to receive the music in its intended way.{" "}
           </h1>
-          <a href="/home">
+          {/* <a href="/home">
             <img src={doors} alt="doors" id="doors" />
-          </a>
+          </a> */}
         </Box>
       </Box>
       <Tracks />
