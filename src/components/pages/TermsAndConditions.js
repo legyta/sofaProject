@@ -131,7 +131,7 @@ class TermsAndConditions extends Component {
                     size="small"
                     variant="contained"
                     color="primary"
-                    href="/home2"
+                    href="/home"
                   >
                     Yes, I confirm
                   </Button>
@@ -158,7 +158,6 @@ class TermsAndConditions extends Component {
                     size="small"
                     variant="contained"
                     color="default"
-                    // href="/home2"
                     rel="noopener"
                     data-do-default="true"
                   >

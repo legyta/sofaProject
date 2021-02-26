@@ -11,7 +11,7 @@ class Popup extends React.Component {
           </div>
           <div className="popupButton">
             {" "}
-            <button onClick={() => window.open("/home2")}>OK</button>
+            <button onClick={() => window.open("/home")}>OK</button>
           </div>
         </div>
       </div>
