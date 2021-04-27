@@ -21,14 +21,14 @@ function AboutArtist() {
         >
           <img src={theSofaProject} alt="soundtracks" id="soundtrackPhoto" />
         </Box>
-        {/* <a href="/home">
+        <a href="/home">
           <img
             style={{ width: "60px", marginLeft: "620px" }}
             src={doors}
             alt="doors"
             id="doors"
           />
-        </a> */}
+        </a>
       </Box>
       <TheSofaProject />
       <WorldAroundSofa />

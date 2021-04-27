@@ -33,7 +33,7 @@ function AboutCreator() {
             miserable life pop up.
           </h1>
           <a href="/home">
-            <img  src={doors} alt="doors" id="doors" />
+            <img src={doors} alt="doors" id="doors" />
           </a>
         </Box>
       </Box>

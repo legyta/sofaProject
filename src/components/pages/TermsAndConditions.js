@@ -22,6 +22,14 @@ class TermsAndConditions extends Component {
   }
 
   render() {
+    window.onload = function () {
+      window.setTimeout(setDisabled, 100000);
+    };
+
+    function setDisabled() {
+      document.getElementById("agreeButton").disabled = false;
+    }
+
     return (
       <Grid
         container
@@ -44,6 +52,7 @@ class TermsAndConditions extends Component {
           }}
         >
           <h1>The Sofa Project</h1>
+          <cap>by Marija Baranauskaitė</cap>
           <img src={sofa} alt="sofa" id="sofa" />
           <p>
             The Sofa Project is a continuous, international and
@@ -81,7 +90,9 @@ class TermsAndConditions extends Component {
               />
               <ol>
                 <li>I understand that this website is not for humans.</li>
-                <li>
+                <li>It is for sofas.</li>
+                <li>Put a blanket on your head.</li>
+                {/* <li>
                   I confirm that I am entering this website for the benefit of
                   objects and furniture.
                 </li>
@@ -108,7 +119,7 @@ class TermsAndConditions extends Component {
                   I will invite or I will consider the possibility of inviting
                   Marija or other artists experienced in performances for
                   objects to come and perform for my things.
-                </li>
+                </li> */}
               </ol>
 
               <Grid
