@@ -4,6 +4,15 @@ import Box from "@material-ui/core/Box";
 import projectSections from "../stylesheets/projectSections.css";
 import sofaProjectPhoto from "../images/sofaProjectPhoto.jpg";
 import ReactPlayer from "react-player";
+import InfoIcon from "@material-ui/icons/Info";
+
+function changeBackground(e) {
+  e.target.style.color = "#F9D65C";
+}
+
+function usualBackground(e) {
+  e.target.style.color = "#000";
+}
 
 const sofaTrailer = "https://www.youtube.com/watch?v=DYtkUHnUMNQ";
 
@@ -61,6 +70,12 @@ function TheSofaProject() {
           </p>
           <h3>People on tour:</h3>
           <p>2 people </p>
+          <h3 style={{ marginBottom: "5px" }}>Book the performance:</h3>
+          <InfoIcon
+            onMouseOver={changeBackground}
+            onMouseLeave={usualBackground}
+            onClick={() => window.open("/contact-artists", "_blank")}
+          />
           <h3 style={{ marginBottom: "5px" }}>Trailer:</h3>
           <ReactPlayer
             className="reactPlayer"

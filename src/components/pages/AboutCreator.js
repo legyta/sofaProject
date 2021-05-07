@@ -8,7 +8,6 @@ import aboutCreatorImage from "../images/aboutCreatorImage.svg";
 import ArtistBio from "../pieces/ArtistBio";
 import ArtistBio2 from "../pieces/ArtistBio2";
 import doors from "../images/doors.PNG";
-import Banner from "../pieces/Banner";
 
 function AboutCreator() {
   return (
@@ -39,7 +38,6 @@ function AboutCreator() {
       </Box>
       <ArtistBio />
       <ArtistBio2 />
-      <Banner />
     </Grid>
   );
 }

@@ -90,6 +90,12 @@ function WorldAroundSofa() {
 
           <h3>People online:</h3>
           <p>7</p>
+          <h3 style={{ marginBottom: "5px" }}>Book the performance:</h3>
+          <InfoIcon
+            onMouseOver={changeBackground}
+            onMouseLeave={usualBackground}
+            onClick={() => window.open("/contact-artists", "_blank")}
+          />
           <h3 style={{ marginBottom: "5px" }}>Technical requirements:</h3>
           <InfoIcon
             onMouseOver={changeBackground}

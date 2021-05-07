@@ -7,7 +7,10 @@ import authorBio2 from "../images/authorBio2.jpg";
 function ArtistBio() {
   return (
     <Grid className="theSofaProject" style={{ marginBottom: "40px" }}>
-      <Box className="sofaProjectPhotoAndDescription">
+      <Box
+        className="sofaProjectPhotoAndDescription"
+        //style={{ padding: "20px 60px" }}
+      >
         <Box className="photo">
           <img
             src={authorBio2}

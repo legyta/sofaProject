@@ -72,3 +72,9 @@ h2 {
     width: 95%;
   }
 }
+
+@media screen and (min-width: 789px) and (max-width: 1600px) {
+  .theSofaProject {
+    padding: 20px 60px;
+  }
+}

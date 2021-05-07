@@ -54,7 +54,7 @@ function PlayPhilosophy() {
           <p>For humans who are overly human centered and highly critical. </p>
           <h3>Duration:</h3>
           <p>Minimum 1h, optimal 12h, maximum 26h. </p>
-          <h3 style={{ marginBottom: "5px" }}>Book the show:</h3>
+          <h3 style={{ marginBottom: "5px" }}>Book the workshop:</h3>
           <InfoIcon
             onMouseOver={changeBackground}
             onMouseLeave={usualBackground}

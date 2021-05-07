@@ -4,6 +4,15 @@ import Box from "@material-ui/core/Box";
 import projectSections from "../stylesheets/projectSections.css";
 import performForObjects1 from "../images/performForObjects1.png";
 import performForObjects2 from "../images/performForObjects2.png";
+import InfoIcon from "@material-ui/icons/Info";
+
+function changeBackground(e) {
+  e.target.style.color = "#F9D65C";
+}
+
+function usualBackground(e) {
+  e.target.style.color = "#000";
+}
 
 function PerformForObjects() {
   return (
@@ -43,6 +52,12 @@ function PerformForObjects() {
           <p>Humans who want to learn how to perform for objects.</p>
           <h3>Duration:</h3>
           <p>Minimum 3h, maximum – never-ending continuous research. </p>
+          <h3 style={{ marginBottom: "5px" }}>Book the workshop:</h3>
+          <InfoIcon
+            onMouseOver={changeBackground}
+            onMouseLeave={usualBackground}
+            onClick={() => window.open("/contact-artists", "_blank")}
+          />
           <p style={{ margin: "40px 40px 0px 0px" }}>
             Can humans perform for different types of objects? Not only sofas?{" "}
             <br></br>

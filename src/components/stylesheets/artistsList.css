@@ -5,10 +5,11 @@ p {
   margin-top: 5px;
 }
 
-@media screen and (min-width: 667px) and (max-width: 1600px) {
+@media screen and (min-width: 789px) and (max-width: 1600px) {
   .artistsList {
     display: flex;
     flex-direction: row;
+    padding: 20px 60px;
   }
 
   .artistsList1 {

@@ -104,3 +104,9 @@
     margin-top: 30px;
   }
 } */
+
+@media screen and (min-width: 789px) and (max-width: 1600px) {
+  .soundtracksPage {
+    padding: 20px 60px;
+  }
+}

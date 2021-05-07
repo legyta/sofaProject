@@ -19,7 +19,7 @@ import GuidedMeditation from "../tracksDescription/GuidedMeditation";
 
 function Tracks() {
   return (
-    <Grid style={{ margin: "40px 0px" }}>
+    <Grid style={{ margin: "40px 0px" }} className="soundtracksPage">
       <Box className="tracks1">
         <Box
           className="track1"

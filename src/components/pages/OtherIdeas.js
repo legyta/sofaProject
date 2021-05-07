@@ -4,7 +4,6 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import aboutCreatorImage from "../images/aboutCreatorImage.svg";
 import doors from "../images/doors.PNG";
-import Banner from "../pieces/Banner";
 
 function OtherIdeas() {
   return (
@@ -32,7 +31,6 @@ function OtherIdeas() {
           </a>
         </Box>
       </Box>
-      <Banner />
     </Grid>
   );
 }

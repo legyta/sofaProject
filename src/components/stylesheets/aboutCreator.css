@@ -19,3 +19,9 @@
     margin-top: -40px;
   }
 }
+
+@media screen and (min-width: 789px) and (max-width: 1600px) {
+  .sofaProjectPhotoAndDescription {
+    padding: 20px 60px;
+  }
+}

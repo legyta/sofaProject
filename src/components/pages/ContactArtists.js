@@ -6,7 +6,6 @@ import contactArtistsImage from "../images/contactArtistsImage.svg";
 import ContactDetails from "../pieces/ContactDetails";
 import ArtistsList from "../pieces/ArtistsList";
 import doors from "../images/doors.PNG";
-import Banner from "../pieces/Banner";
 
 function ContactArtists() {
   return (
@@ -41,7 +40,6 @@ function ContactArtists() {
         </Box>
       </Box>
       <ArtistsList />
-      <Banner />
     </Grid>
   );
 }

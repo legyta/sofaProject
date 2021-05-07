@@ -8,7 +8,6 @@ import TheSofaProject from "../pieces/TheSofaProject";
 import WorldAroundSofa from "../pieces/WorldAroundSofa";
 import TheCelloProject from "../pieces/TheCelloProject";
 import doors from "../images/doors.PNG";
-import Banner from "../pieces/Banner";
 
 function AboutArtist() {
   return (
@@ -33,7 +32,6 @@ function AboutArtist() {
       <TheSofaProject />
       <WorldAroundSofa />
       <TheCelloProject />
-      <Banner />
     </Grid>
   );
 }

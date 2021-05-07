@@ -22,13 +22,34 @@ class TermsAndConditions extends Component {
   }
 
   render() {
-    window.onload = function () {
-      window.setTimeout(setDisabled, 100000);
-    };
+    let freezeClic = false; // just modify that variable to disable all clics events
 
-    function setDisabled() {
-      document.getElementById("agreeButton").disabled = false;
-    }
+    document.addEventListener(
+      "agreeButton",
+      (e) => {
+        if (freezeClic) {
+          e.stopPropagation();
+          e.preventDefault();
+        }
+      },
+      true
+    );
+    // window.onload = function () {
+    //   window.setTimeout(setDisabled, 100000);
+    // };
+
+    // function setDisabled() {
+    //   document.getElementById("agreeButton").disabled = false;
+    // // }
+
+    // $(function () {
+    //   $("agreeButton").click(function () {
+    //     $("agreeButton").attr("disabled", "disabled");
+    //     setTimeout(function () {
+    //       $("agreeButton").removeAttr("disabled");
+    //     }, 100000);
+    //   });
+    // });
 
     return (
       <Grid
@@ -52,15 +73,15 @@ class TermsAndConditions extends Component {
           }}
         >
           <h1>The Sofa Project</h1>
-          <cap>by Marija Baranauskaitė</cap>
+          <cap className="name">by Marija Baranauskaitė</cap>
           <img src={sofa} alt="sofa" id="sofa" />
-          <p>
+          {/* <p>
             The Sofa Project is a continuous, international and
             interdisciplinary artistic research oriented towards performing for
             sofas around the world. If you are a human, before entering the
             website created for sofas, please read and confirm the following
             terms and conditions:
-          </p>
+          </p> */}
 
           <Grid
             className="termsAndConditionsSheet"
@@ -150,6 +171,7 @@ class TermsAndConditions extends Component {
                     src={yesConfirm}
                     alt="agree"
                     id="agreeButton"
+                    disabled="disabled"
                     style={{
                       margin: "10px",
                     }}

@@ -12,6 +12,7 @@ function changeBackground(e) {
 function usualBackground(e) {
   e.target.style.color = "#000";
 }
+
 function TheCelloProject() {
   return (
     <Grid className="theSofaProject" style={{ marginBottom: "40px" }}>
@@ -51,7 +52,7 @@ function TheCelloProject() {
         >
           <h3>Author and director:</h3>
           <p>Marija Baranauskaitė </p>
-          <h3 style={{ marginBottom: "5px" }}>Book the show:</h3>
+          <h3 style={{ marginBottom: "5px" }}>Book the performance:</h3>
           <InfoIcon
             onMouseOver={changeBackground}
             onMouseLeave={usualBackground}

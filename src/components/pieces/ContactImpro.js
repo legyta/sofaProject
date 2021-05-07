@@ -4,6 +4,15 @@ import Box from "@material-ui/core/Box";
 import projectSections from "../stylesheets/projectSections.css";
 import contactImpro1 from "../images/contactImpro1.png";
 import contactImpro2 from "../images/contactImpro2.png";
+import InfoIcon from "@material-ui/icons/Info";
+
+function changeBackground(e) {
+  e.target.style.color = "#F9D65C";
+}
+
+function usualBackground(e) {
+  e.target.style.color = "#000";
+}
 
 function ContactImpro() {
   return (
@@ -17,7 +26,7 @@ function ContactImpro() {
             src={contactImpro1}
             alt="sofaProject"
             id="contactImproPhoto1"
-            style={{ marginTop: "20px", marginRight: "5px" }}
+            style={{ marginTop: "20px", marginRight: "5px", marginLeft: "5px" }}
           />
           <img
             src={contactImpro2}
@@ -41,6 +50,12 @@ function ContactImpro() {
           </p>
           <h3>Duration:</h3>
           <p>Minimum 1h, maximum 26h/three to five days.</p>
+          <h3 style={{ marginBottom: "5px" }}>Book the workshop:</h3>
+          <InfoIcon
+            onMouseOver={changeBackground}
+            onMouseLeave={usualBackground}
+            onClick={() => window.open("/contact-artists", "_blank")}
+          />
           <p style={{ margin: "40px 40px 0px 0px" }}>
             Contact dance is one of the best ways to reveal the differences and
             similarities of the human and sofa bodies and explore how both of

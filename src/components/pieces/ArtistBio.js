@@ -11,7 +11,10 @@ import afterShow3 from "../images/afterShow3.jpg";
 function ArtistBio() {
   return (
     <Grid className="theSofaProject">
-      <Box className="sofaProjectPhotoAndDescription">
+      <Box
+        className="sofaProjectPhotoAndDescription"
+        // style={{ padding: "20px 60px" }}
+      >
         <Box className="photo">
           <img
             src={aboutArtistImage}

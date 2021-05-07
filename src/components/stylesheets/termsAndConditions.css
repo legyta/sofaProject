@@ -32,6 +32,11 @@
   span {
   font-family: "Open Sans", sans-serif;
 }
+
+.name {
+  margin-left: 70px;
+}
+
 /* Sofa Logo Start*/
 .termsAndConditions .termsAndConditionsPage #sofa {
   width: 40%;
@@ -231,5 +236,8 @@ li {
 @media screen and (min-width: 375px) and (max-width: 734px) {
   .popupText text {
     font-size: 8px;
+  }
+  .name {
+    margin-left: 75px;
   }
 }

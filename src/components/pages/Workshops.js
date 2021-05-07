@@ -10,7 +10,6 @@ import ContactImpro from "../pieces/ContactImpro";
 import PerformForObjects from "../pieces/PerformForObjects";
 import PlayPhilosophy from "../pieces/PlayPhilosophy";
 import doors from "../images/doors.PNG";
-import Banner from "../pieces/Banner";
 
 function Workshops() {
   return (
@@ -40,7 +39,6 @@ function Workshops() {
       <ContactImpro />
       <PerformForObjects />
       <PlayPhilosophy />
-      <Banner />
     </Grid>
   );
 }
