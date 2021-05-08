@@ -31,13 +31,13 @@ function AboutCreator() {
             being in such an intense relationship made the issues of the
             miserable life pop up.
           </h1>
-          <a href="/home">
-            <img src={doors} alt="doors" id="doors" />
-          </a>
         </Box>
       </Box>
       <ArtistBio />
       <ArtistBio2 />
+      <a href="/home">
+        <img src={doors} alt="doors" id="doors" />
+      </a>
     </Grid>
   );
 }

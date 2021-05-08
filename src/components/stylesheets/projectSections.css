@@ -32,15 +32,6 @@ h2 {
   #playPhilosophy2 {
     width: 80%;
   }
-  /* #playPhilosophy3 {
-    width: 100%;
-  }
-  #performForObjects1 {
-    width: 80%;
-  }
-  #performForObjects2 {
-    width: 80%;
-  } */
 }
 
 @media screen and (min-width: 666px) and (max-width: 734px) {
@@ -75,6 +66,6 @@ h2 {
 
 @media screen and (min-width: 789px) and (max-width: 1600px) {
   .theSofaProject {
-    padding: 20px 60px;
+    padding: 25px 10px 0px 25px;
   }
 }

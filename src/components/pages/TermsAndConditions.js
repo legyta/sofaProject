@@ -7,7 +7,6 @@ import noConfirm from "../images/noConfirm.jpg";
 import sofa from "../images/sofa.svg";
 import Button from "@material-ui/core/Button";
 import PopUp from "../pieces/PopUp";
-//import NoConfirmText from "../pieces/NoConfirmText"
 import termsAndConditions from "../stylesheets/termsAndConditions.css";
 class TermsAndConditions extends Component {
   constructor(props) {
@@ -22,35 +21,6 @@ class TermsAndConditions extends Component {
   }
 
   render() {
-    let freezeClic = false; // just modify that variable to disable all clics events
-
-    document.addEventListener(
-      "agreeButton",
-      (e) => {
-        if (freezeClic) {
-          e.stopPropagation();
-          e.preventDefault();
-        }
-      },
-      true
-    );
-    // window.onload = function () {
-    //   window.setTimeout(setDisabled, 100000);
-    // };
-
-    // function setDisabled() {
-    //   document.getElementById("agreeButton").disabled = false;
-    // // }
-
-    // $(function () {
-    //   $("agreeButton").click(function () {
-    //     $("agreeButton").attr("disabled", "disabled");
-    //     setTimeout(function () {
-    //       $("agreeButton").removeAttr("disabled");
-    //     }, 100000);
-    //   });
-    // });
-
     return (
       <Grid
         container
@@ -75,13 +45,6 @@ class TermsAndConditions extends Component {
           <h1>The Sofa Project</h1>
           <cap className="name">by Marija Baranauskaitė</cap>
           <img src={sofa} alt="sofa" id="sofa" />
-          {/* <p>
-            The Sofa Project is a continuous, international and
-            interdisciplinary artistic research oriented towards performing for
-            sofas around the world. If you are a human, before entering the
-            website created for sofas, please read and confirm the following
-            terms and conditions:
-          </p> */}
 
           <Grid
             className="termsAndConditionsSheet"
@@ -113,34 +76,6 @@ class TermsAndConditions extends Component {
                 <li>I understand that this website is not for humans.</li>
                 <li>It is for sofas.</li>
                 <li>Put a blanket on your head.</li>
-                {/* <li>
-                  I confirm that I am entering this website for the benefit of
-                  objects and furniture.
-                </li>
-                <li>
-                  Upon entering the website, I am recommended to act as little
-                  human as possible and as much as I can as an object: staying
-                  still, present, taking time, maybe putting a blanket on my
-                  head if I feel like a couch and without too many human
-                  thoughts or feelings.
-                </li>
-                <li>
-                  I understand that objects depend on me, so it’s up to me to
-                  decide if art made for non-human publics will reach my
-                  objects.
-                </li>
-                <li>
-                  I understand that this project is human friendly so I will do
-                  my best to be object friendly too.
-                </li>
-                <li>
-                  I will put a soundtrack created for objects for my objects.
-                </li>
-                <li>
-                  I will invite or I will consider the possibility of inviting
-                  Marija or other artists experienced in performances for
-                  objects to come and perform for my things.
-                </li> */}
               </ol>
 
               <Grid

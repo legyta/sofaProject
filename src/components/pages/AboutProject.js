@@ -15,23 +15,29 @@ function AboutArtist() {
       <Link to="/performances-for-objects"></Link>
       <Box className="photoAndDescription">
         <Box
-          className="photo"
+          className="workshopPhoto"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={theSofaProject} alt="soundtracks" id="soundtrackPhoto" />
+          <img src={theSofaProject} alt="soundtracks" id="workshopPhoto" />
         </Box>
-        <a href="/home">
-          <img
-            style={{ width: "60px", marginLeft: "620px" }}
-            src={doors}
-            alt="doors"
-            id="doors"
-          />
-        </a>
+        <Box
+          className="description"
+          style={{ display: "flex", flexDirection: "row" }}
+        >
+          <h1>
+            The Sofa Project is a continuous, international and
+            interdisciplinary artistic research oriented towards performing for
+            sofas around the world.
+          </h1>
+        </Box>
       </Box>
       <TheSofaProject />
       <WorldAroundSofa />
       <TheCelloProject />
+      <div></div>
+      <a href="/home">
+        <img src={doors} alt="doors" id="doors" />
+      </a>
     </Grid>
   );
 }

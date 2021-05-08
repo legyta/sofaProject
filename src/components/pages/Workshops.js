@@ -31,14 +31,14 @@ function Workshops() {
             of sofanity. The workshops can be held both physically and online,
             during special events or casual situations.{" "}
           </h1>
-          <a href="/home">
-            <img src={doors} alt="doors" id="doors" />
-          </a>
         </Box>
       </Box>
       <ContactImpro />
       <PerformForObjects />
       <PlayPhilosophy />
+      <a href="/home">
+        <img src={doors} alt="doors" id="doors" />
+      </a>
     </Grid>
   );
 }

@@ -26,11 +26,11 @@ function OtherIdeas() {
             <br></br>You will be able to get your own blanket or subscribe for
             the newsletter.
           </h1>
-          <a href="/home">
-            <img style={{ width: "60px" }} src={doors} alt="doors" id="doors" />
-          </a>
         </Box>
       </Box>
+      <a href="/home">
+        <img src={doors} alt="doors" id="doors" />
+      </a>
     </Grid>
   );
 }

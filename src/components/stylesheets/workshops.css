@@ -40,16 +40,55 @@
 }
 
 /* Photo and description section end */
-
 #doors {
-  width: 60%;
-  margin-right: 40px;
+  width: 5%;
+  margin-left: 1140px;
+  margin-bottom: 40px;
+  margin-top: -20px;
 }
 
-@media screen and (min-width: 375px) and (max-width: 414px) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #doors {
+    width: 8%;
+    margin-left: 860px;
+  }
+}
+
+@media screen and (min-width: 734px) and (max-width: 768px) {
+  #doors {
+    width: 8%;
+    margin-left: 620px;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 733px) {
+  #doors {
+    width: 10%;
+    margin-left: 560px;
+  }
+}
+
+@media screen and (min-width: 667px) and (max-width: 683px) {
+}
+
+@media screen and (min-width: 411px) and (max-width: 414px) {
   #doors {
     margin-top: 30px;
-    margin-left: 240px;
-    width: 20%;
+    margin-left: 280px;
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 410px) {
+  #doors {
+    margin-top: 30px;
+    margin-left: 260px;
+    width: 15%;
   }
 }
