@@ -31,13 +31,13 @@ function Home2() {
           }}
         >
           <Box>
-            <a href="/about-creator">
+            <a href="/contact-artists">
               <img src={lampResized} alt="recommendations" id="sixthImage" />
             </a>
           </Box>
           <Box style={{ display: "flex", flexDirection: "row" }}>
             <Box style={{ width: "50%" }}>
-              <a href="/more-ideas">
+              <a href="/about-creator">
                 <img
                   src={aboutthecreatorfinalResized}
                   alt="recommendations"
@@ -67,7 +67,7 @@ function Home2() {
               </a>
             </Box>
             <Box style={{ width: "33%" }}>
-              <a href="/contact-artists">
+              <a href="/more-ideas">
                 <img
                   src={contacttheartistsfinal}
                   alt="theworldaroundsofa"

@@ -34,7 +34,6 @@ function AboutArtist() {
       <TheSofaProject />
       <WorldAroundSofa />
       <TheCelloProject />
-      <div></div>
       <a href="/home">
         <img src={doors} alt="doors" id="doors" />
       </a>

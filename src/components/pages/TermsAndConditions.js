@@ -72,11 +72,12 @@ class TermsAndConditions extends Component {
                   margin: "20px",
                 }}
               />
-              <ol>
-                <li>I understand that this website is not for humans.</li>
-                <li>It is for sofas.</li>
-                <li>Put a blanket on your head.</li>
-              </ol>
+
+              <h3>I understand that this website is not for humans.</h3>
+
+              <p style={{ marginTop: "10px" }}>
+                p.s. Recommended to put a blanket on your head.
+              </p>
 
               <Grid
                 className="buttons"

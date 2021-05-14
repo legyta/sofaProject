@@ -8,7 +8,6 @@ import Workshops from "./components/pages/Workshops";
 import AboutCreator from "./components/pages/AboutCreator";
 import Home2 from "./components/pages/Home2";
 import OtherIdeas from "./components/pages/OtherIdeas";
-
 class App extends Component {
   render() {
     const App = () => (
