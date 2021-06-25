@@ -4,6 +4,7 @@ import Box from "@material-ui/core/Box";
 import projectSections from "../stylesheets/projectSections.css";
 import cello from "../images/cello.jpg";
 import InfoIcon from "@material-ui/icons/Info";
+import techReq from "../pieces/CelloTechReq.pdf";
 
 function changeBackground(e) {
   e.target.style.color = "#F9D65C";
@@ -12,6 +13,8 @@ function changeBackground(e) {
 function usualBackground(e) {
   e.target.style.color = "#000";
 }
+
+//const techReq = <a href={techReq}></a>;
 
 function TheCelloProject() {
   return (
@@ -57,6 +60,12 @@ function TheCelloProject() {
             onMouseOver={changeBackground}
             onMouseLeave={usualBackground}
             onClick={() => window.open("/contact-artists", "_blank")}
+          />
+          <h3 style={{ marginBottom: "5px" }}>Technical requirements:</h3>
+          <InfoIcon
+            onMouseOver={changeBackground}
+            onMouseLeave={usualBackground}
+            onClick={() => window.open(techReq, "_blank")}
           />
         </Box>
       </Box>

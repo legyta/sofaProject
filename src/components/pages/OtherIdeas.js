@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
-import aboutCreatorImage from "../images/aboutCreatorImage.svg";
+import moreideastitle from "../images/moreideastitle.png";
 import doors from "../images/doors.PNG";
 
 function OtherIdeas() {
@@ -14,7 +14,7 @@ function OtherIdeas() {
           className="photo"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={aboutCreatorImage} alt="soundtracks" id="soundtrackPhoto" />
+          <img src={moreideastitle} alt="soundtracks" id="soundtrackPhoto" />
         </Box>
         <Box
           className="description"

@@ -5,7 +5,7 @@ import Box from "@material-ui/core/Box";
 import workshops from "../stylesheets/workshops.css";
 import workshopsImage from "../images/workshopsImage.svg";
 import workshops1 from "../images/workshops1.png";
-import workshops2 from "../images/workshops2.png";
+import workshops_titleResized from "../images/workshops_titleResized.png";
 import ContactImpro from "../pieces/ContactImpro";
 import PerformForObjects from "../pieces/PerformForObjects";
 import PlayPhilosophy from "../pieces/PlayPhilosophy";
@@ -20,7 +20,11 @@ function Workshops() {
           className="workshopPhoto"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={workshopsImage} alt="soundtracks" id="workshopPhoto" />
+          <img
+            src={workshops_titleResized}
+            alt="soundtracks"
+            id="workshopPhoto"
+          />
         </Box>
         <Box
           className="description"

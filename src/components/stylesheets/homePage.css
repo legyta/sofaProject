@@ -71,7 +71,7 @@
   }
 
   #secondImage:hover {
-    content: url("../images/contacttheartists_titleResized.png");
+    content: url("../images/moreideastitle.png");
   }
 
   #thirdImage:hover {
@@ -85,6 +85,10 @@
   #fifthImage:hover {
     content: url("../images/soundtracksforsofas_titleResized.png");
   }
+
+  #sixthImage:hover {
+    content: url("../images/contacttheartistscandeliertitle.png");
+  }
 }
 
 @media screen and (min-width: 220px) and (max-width: 1024px) {
@@ -93,7 +97,7 @@
   }
 
   #secondImage {
-    content: url("../images/contacttheartists_titleResized.png");
+    content: url("../images/moreideastitle.png");
   }
 
   #thirdImage {
@@ -106,6 +110,10 @@
 
   #fifthImage {
     content: url("../images/soundtracksforsofas_titleResized.png");
+  }
+
+  #sixthImage {
+    content: url("../images/contacttheartistscandeliertitle.png");
   }
 
   /* on hover */
@@ -127,6 +135,10 @@
 
   #fifthImage:hover {
     content: url("../images/Soundtrackforsofafinal.png");
+  }
+
+  #sixthImage:hover {
+    content: url("../images/lampResized.png");
   }
 }
 
@@ -377,19 +389,19 @@
   }
 
   #thirdImage {
-    top: 440px;
+    top: 470px;
     width: 180px;
     margin-left: -83px;
   }
 
   #fourthImage {
-    top: 300px;
+    top: 370px;
     margin-left: 205px;
     width: 140px;
   }
 
   #fifthImage {
-    top: 300px;
+    top: 370px;
     margin-left: -180px;
     width: 110px;
   }

@@ -7,6 +7,7 @@ import theSofaProject from "../images/theSofaProject.svg";
 import TheSofaProject from "../pieces/TheSofaProject";
 import WorldAroundSofa from "../pieces/WorldAroundSofa";
 import TheCelloProject from "../pieces/TheCelloProject";
+import PerformancesforObjectsfinalResized from "../images/PerformancesforObjectsfinalResized.png";
 import doors from "../images/doors.PNG";
 
 function AboutArtist() {
@@ -18,7 +19,11 @@ function AboutArtist() {
           className="workshopPhoto"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={theSofaProject} alt="soundtracks" id="workshopPhoto" />
+          <img
+            src={PerformancesforObjectsfinalResized}
+            alt="soundtracks"
+            id="workshopPhoto"
+          />
         </Box>
         <Box
           className="description"

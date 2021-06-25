@@ -1,6 +1,6 @@
 /* Photo and description section start */
 #workshopPhoto {
-  width: 40%;
+  width: 60%;
   margin-top: 40px;
 }
 
@@ -10,17 +10,17 @@
   }
   #workshopPhoto {
     width: 75%;
-    margin-top: 0px;
+    margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 667px) and (max-width: 1600px) {
   .workshopPhoto {
-    width: 40%;
+    width: 90%;
   }
   #workshopPhoto {
     width: 60%;
-    margin-top: 0px;
+    margin-top: 40px;
   }
 }
 

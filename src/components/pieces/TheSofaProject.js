@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import projectSections from "../stylesheets/projectSections.css";
-import sofaProjectPhoto from "../images/sofaProjectPhoto.jpg";
+import sofaProjectPhotoNew from "../images/sofaProjectPhotoNew.jpg";
 import ReactPlayer from "react-player";
 import InfoIcon from "@material-ui/icons/Info";
 
@@ -26,7 +26,7 @@ function TheSofaProject() {
       <Box className="sofaProjectPhotoAndDescription">
         <Box className="photo">
           <img
-            src={sofaProjectPhoto}
+            src={sofaProjectPhotoNew}
             alt="sofaProject"
             id="soundtrackPhoto"
             style={{ marginTop: "20px" }}
@@ -34,8 +34,29 @@ function TheSofaProject() {
           <caption
             style={{ display: "flex", flexDirection: "row", fontSize: "14px" }}
           >
-            Photo: Dainius Putinas
+            Photo: Donatas Ališauskas
           </caption>
+          <p style={{ margin: "40px 40px 0px 0px" }}>
+            According to the artist, the audience of this project is not human –
+            she performs for sofas instead. Always eager to challenge herself,
+            Marija was inspired by contemporary artists who are already making
+            shows for pets or plants and decided to take one little step further
+            while researching audiences without any consciousness at all –
+            furniture. This is a continuous creative process in which human and
+            sofa relations are being explored.
+            <br></br>
+            <br></br>How are we as human beings related to sofas? What are the
+            differences between humans and sofas? How much consciousness is
+            needed to be an audience member or a performer?<br></br>
+            <br></br>The project was already presented at the New Circus Weekend
+            ’18 (Vilnius), Cirkuliacija’18 ( Kaunas), Edengurgh fringe festival,
+            PAF, visited the private local sofas of Berlin, Bonn, Paris, Vienna,
+            Brussels, Open House Vilnius in collaboration with Contemporary Art
+            Center (Vilnius) and etc.<br></br>One of the aims of this project is
+            while traveling around the world to get the world’s sofas to meet
+            the performer and spread the word about unconventional contemporary
+            performances.
+          </p>
         </Box>
         <Box
           className="sofaProjectDescription"

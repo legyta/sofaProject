@@ -240,4 +240,12 @@ li {
   .name {
     margin-left: 75px;
   }
+
+  .termsAndConditionsSheet .termsAndConditionsSheetPaper h3 {
+    padding: 20px;
+  }
+
+  .termsAndConditionsSheet .termsAndConditionsSheetPaper p {
+    padding: 20px;
+  }
 }

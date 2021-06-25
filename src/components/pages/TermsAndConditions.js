@@ -76,7 +76,7 @@ class TermsAndConditions extends Component {
               <h3>I understand that this website is not for humans.</h3>
 
               <p style={{ marginTop: "10px" }}>
-                p.s. Recommended to put a blanket on your head.
+                p.s. It is recommended to put a blanket on your head.
               </p>
 
               <Grid
