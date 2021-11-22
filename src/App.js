@@ -6,8 +6,9 @@ import ContactArtists from "./components/pages/ContactArtists";
 import Soundtracks from "./components/pages/Soundtracks";
 import Workshops from "./components/pages/Workshops";
 import AboutCreator from "./components/pages/AboutCreator";
-import Home2 from "./components/pages/Home2";
+import Home from "./components/pages/Home";
 import OtherIdeas from "./components/pages/OtherIdeas";
+
 class App extends Component {
   render() {
     const App = () => (
@@ -19,7 +20,7 @@ class App extends Component {
           <Route path="/soundtracks" component={Soundtracks} />
           <Route path="/workshops" component={Workshops} />
           <Route path="/about-creator" component={AboutCreator} />
-          <Route path="/home" component={Home2} />
+          <Route path="/home" component={Home} />
           <Route path="/more-ideas" component={OtherIdeas} />
         </Switch>
       </div>

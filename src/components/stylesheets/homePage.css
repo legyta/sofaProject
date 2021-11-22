@@ -28,12 +28,6 @@
   margin-left: 70px;
 }
 
-#celloImage {
-  position: absolute;
-  top: -20px;
-  width: 300px;
-}
-
 #fourthImage {
   position: absolute;
   top: 220px;
@@ -142,7 +136,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1025px) {
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
   #firstImage {
     width: 270px;
     top: 500px;
@@ -159,10 +153,6 @@
     top: 400px;
   }
 
-  #celloImage {
-    width: 270px;
-  }
-
   #fourthImage {
     width: 230px;
     top: 260px;
@@ -175,6 +165,63 @@
   #sixthImage {
     width: 280px;
     margin-left: 400px;
+  }
+}
+
+@media screen and (min-height: 1024px) and (max-height: 1024px) {
+    #fifthImage {
+    top: 500px !important;
+  }
+
+  #fourthImage {
+    top: 490px !important;
+  }
+
+  #thirdImage {
+    top: 690px !important;
+  }
+
+  #secondImage {
+    top: 600px !important;
+  }
+
+    #firstImage {
+    top: 760px !important;
+  }
+}
+
+@media screen and (min-height: 1366px) and (max-height: 1366px) {
+  #firstImage {
+    width: 370px;
+    top: 1100px;
+  }
+
+  #secondImage {
+    width: 290px;
+    top: 890px;
+    margin-left: 50px;
+  }
+
+  #thirdImage {
+    width: 410px;
+    top: 980px;
+    margin-left: -60px;
+  }
+
+  #fourthImage {
+    width: 330px;
+    top: 630px;
+    margin-left: 80px;
+  }
+
+  #fifthImage {
+    width: 260px;
+    top: 630px
+  }
+
+  #sixthImage {
+    width: 380px;
+    margin-left: 350px;
   }
 }
 
@@ -213,6 +260,28 @@
     top: 0px;
     width: 220px;
     margin-left: 300px;
+  }
+}
+
+@media screen and (min-height: 736px) and (max-height: 736px) {
+  #fifthImage {
+    top: 350px !important;
+  }
+
+  #fourthImage {
+    top: 360px !important;
+  }
+
+  #thirdImage {
+    top: 560px !important;
+  }
+
+  #secondImage {
+    top: 450px !important;
+  }
+
+    #firstImage {
+    top: 610px !important;
   }
 }
 
@@ -267,8 +336,9 @@
   }
 
   #thirdImage {
-    top: 200px;
-    width: 160px;
+    top: 230px;
+    width: 190px;
+    margin-left: 40px;
   }
 
   #fourthImage {
@@ -328,12 +398,6 @@
 }
 
 @media screen and (min-width: 412px) and (max-width: 666px) {
-  #blanketImage {
-    margin-left: 0px;
-    height: 50vh;
-    width: 374px;
-  }
-
   #firstImage {
     top: 560px;
     width: 180px;
@@ -342,7 +406,7 @@
   #secondImage {
     top: 410px;
     width: 135px;
-    margin-left: -25px;
+    margin-left: 0px;
   }
 
   #thirdImage {
@@ -353,13 +417,13 @@
 
   #fourthImage {
     top: 310px;
-    margin-left: 220px;
+    margin-left: 5px;
     width: 160px;
   }
 
   #fifthImage {
     top: 290px;
-    margin-left: -170px;
+    margin-left: 70px;
     width: 130px;
   }
 
@@ -370,39 +434,113 @@
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 411px) {
-  #blanketImage {
-    margin-left: 0px;
-    height: 50vh;
-    width: 374px;
+@media screen and (min-height: 812px) and (max-height: 812px) {
+  #firstImage {
+    top: 680px !important;
   }
 
+  #secondImage {
+    top: 520px !important;
+  }
+
+  #thirdImage {
+    top: 620px !important;
+  }
+
+  #fourthImage {
+    top: 420px !important;
+  }
+
+  #fifthImage {
+    top: 430px !important;
+  }
+}
+
+@media screen and (min-height: 800px) and (max-height: 800px) {
+    #fifthImage {
+    top: 350px !important;
+  }
+
+  #fourthImage {
+    top: 340px !important;
+  }
+
+  #thirdImage {
+    top: 490px !important;
+  }
+
+  #secondImage {
+    top: 450px !important;
+  }
+
+    #firstImage {
+    top: 610px !important;
+  }
+}
+
+@media screen and (min-height: 720px) and (max-height: 720px) {
+  #firstImage {
+    top: 560px;
+    width: 180px;
+  }
+
+  #secondImage {
+    top: 430px;
+    width: 135px;
+    margin-left: 40px;
+  }
+
+  #thirdImage {
+    top: 500px;
+    width: 190px;
+    margin-left: -20px;
+  }
+
+  #fourthImage {
+    top: 340px;
+    margin-left: 20px;
+    width: 160px;
+  }
+
+  #fifthImage {
+    top: 330px;
+    width: 130px;
+  }
+
+  #sixthImage {
+    top: -5px;
+    width: 200px;
+    margin-left: 180px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 411px) {
   #firstImage {
     top: 520px;
     width: 170px;
   }
 
   #secondImage {
-    top: 380px;
+    top: 400px;
     width: 115px;
     margin-left: -25px;
   }
 
   #thirdImage {
-    top: 470px;
+    top: 460px;
     width: 180px;
     margin-left: -83px;
   }
 
   #fourthImage {
-    top: 370px;
-    margin-left: 205px;
+    top: 300px;
+    margin-left: 5px;
     width: 140px;
   }
 
   #fifthImage {
-    top: 370px;
-    margin-left: -180px;
+    top: 310px;
+    margin-left: 50px;
     width: 110px;
   }
 

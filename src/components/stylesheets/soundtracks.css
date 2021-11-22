@@ -12,7 +12,7 @@
 #soundtrackPhoto {
   width: 60%;
   margin-top: 40px;
-}
+} 
 
 .description h1 {
   padding: 25px 5px 25px 25px;
@@ -45,7 +45,7 @@
     width: 40%;
   }
   #soundtrackPhoto {
-    width: 85%;
+    width: 65%;
     margin-top: 0px;
   }
   .description {
@@ -75,7 +75,7 @@
     margin-top: 40px;
   }
   #soundtrackPhoto {
-    width: 75%;
+    width: 55%;
   }
   .description h1 {
     margin: 0px 5px 0px 120px;

@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import aboutCreator from "../stylesheets/aboutCreator.css";
 import aboutArtistImage from "../images/aboutArtistImage.png";
-import aboutCreatorImage from "../images/aboutCreatorImage.svg";
+import aboutthecreator_titleResized from "../images/aboutthecreator_titleResized.png";
 import ArtistBio from "../pieces/ArtistBio";
 import ArtistBio2 from "../pieces/ArtistBio2";
 import doors from "../images/doors.PNG";
@@ -18,7 +18,7 @@ function AboutCreator() {
           className="photo"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={aboutCreatorImage} alt="soundtracks" id="soundtrackPhoto" />
+          <img src={aboutthecreator_titleResized} alt="soundtracks" id="soundtrackPhoto" />
         </Box>
         <Box className="description">
           <h1>

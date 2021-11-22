@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
-import contactArtistsImage from "../images/contactArtistsImage.svg";
+import contacttheartistscandeliertitle from "../images/contacttheartistscandeliertitle.png";
 import ContactDetails from "../pieces/ContactDetails";
 import ArtistsList from "../pieces/ArtistsList";
 import doors from "../images/doors.PNG";
@@ -18,7 +18,7 @@ function ContactArtists() {
         >
           <img
             style={{ marginTop: "40px" }}
-            src={contactArtistsImage}
+            src={contacttheartistscandeliertitle}
             alt="soundtracks"
             id="contactArtistsPhoto"
           />

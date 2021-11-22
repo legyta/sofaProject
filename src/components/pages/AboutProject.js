@@ -7,7 +7,7 @@ import theSofaProject from "../images/theSofaProject.svg";
 import TheSofaProject from "../pieces/TheSofaProject";
 import WorldAroundSofa from "../pieces/WorldAroundSofa";
 import TheCelloProject from "../pieces/TheCelloProject";
-import PerformancesforObjectsfinalResized from "../images/PerformancesforObjectsfinalResized.png";
+import performancesforobjects_titleResized from "../images/performancesforobjects_titleResized.png";
 import doors from "../images/doors.PNG";
 
 function AboutArtist() {
@@ -20,7 +20,7 @@ function AboutArtist() {
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
-            src={PerformancesforObjectsfinalResized}
+            src={performancesforobjects_titleResized}
             alt="soundtracks"
             id="workshopPhoto"
           />

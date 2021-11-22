@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import soundtracks from "../stylesheets/soundtracks.css";
 import mariaBlanket from "../images/mariaBlanket.png";
-import soundtrack from "../images/soundtrack.svg";
+import soundtracksforsofas_titleResized from "../images/soundtracksforsofas_titleResized.png";
 import play from "../images/play.svg";
 import Tracks from "../pages/Tracks";
 import doors from "../images/doors.PNG";
@@ -18,7 +18,7 @@ function Soundtracks() {
           className="photo"
           style={{ display: "flex", justifyContent: "center" }}
         >
-          <img src={soundtrack} alt="soundtracks" id="soundtrackPhoto" />
+          <img src={soundtracksforsofas_titleResized} alt="soundtracks" id="soundtrackPhoto" />
         </Box>
         <Box className="description">
           <h1>

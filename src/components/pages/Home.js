@@ -7,7 +7,7 @@ import workshopsfinalResized from "../images/workshopsfinalResized.png";
 import contacttheartistsfinal from "../images/contacttheartistsfinal.png";
 import PerformancesforObjectsfinalResized from "../images/PerformancesforObjectsfinalResized.png";
 import homePage from "../stylesheets/homePage.css";
-import background2Resized from "../images/background2Resized.png";
+import croppedbackgroundredblueResized from "../images/croppedbackgroundredblueResized.png";
 import lampResized from "../images/lampResized.png";
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
       <div
         className="cello"
         style={{
-          backgroundImage: `url(${background2Resized})`,
+          backgroundImage: `url(${croppedbackgroundredblueResized})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "100vh",
@@ -31,13 +31,13 @@ function Home() {
           }}
         >
           <Box>
-            <a href="/about-creator">
+            <a href="/contact-artists">
               <img src={lampResized} alt="recommendations" id="sixthImage" />
             </a>
           </Box>
           <Box style={{ display: "flex", flexDirection: "row" }}>
             <Box style={{ width: "50%" }}>
-              <a href="/more-ideas">
+              <a href="/about-creator">
                 <img
                   src={aboutthecreatorfinalResized}
                   alt="recommendations"
@@ -67,7 +67,7 @@ function Home() {
               </a>
             </Box>
             <Box style={{ width: "33%" }}>
-              <a href="/contact-artists">
+              <a href="/more-ideas">
                 <img
                   src={contacttheartistsfinal}
                   alt="theworldaroundsofa"
